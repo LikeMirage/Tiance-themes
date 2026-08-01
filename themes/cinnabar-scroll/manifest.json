@@ -6,6 +6,7 @@
   },
   "summary": "以丹霞山色和古典卷轴质感构成的暖色主题。",
   "license": "CC0-1.0",
+  "baseColors": ["gold", "red"],
   "preview": "preview.webp",
   "compatibility": {
     "themeSchemaVersion": 2,

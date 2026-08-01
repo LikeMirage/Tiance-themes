@@ -6,6 +6,7 @@
   },
   "summary": "以宣纸肌理、墨晕和淡雅山水构成的东方主题。",
   "license": "CC0-1.0",
+  "baseColors": ["white", "brown"],
   "preview": "preview.webp",
   "compatibility": {
     "themeSchemaVersion": 2,

@@ -10,6 +10,7 @@
     "author",
     "summary",
     "license",
+    "baseColors",
     "preview",
     "compatibility"
   ],
@@ -42,6 +43,14 @@
       "type": "string",
       "minLength": 1,
       "maxLength": 80
+    },
+    "baseColors": {
+      "type": "array",
+      "minItems": 1,
+      "uniqueItems": true,
+      "items": {
+        "enum": ["black", "white", "gray", "red", "orange", "gold", "green", "cyan", "blue", "purple", "pink", "brown"]
+      }
     },
     "preview": {
       "type": "string",

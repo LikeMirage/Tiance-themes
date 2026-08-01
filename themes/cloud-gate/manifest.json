@@ -6,6 +6,7 @@
   },
   "summary": "以云海天门和晨光远山构成开阔明净的主题。",
   "license": "CC0-1.0",
+  "baseColors": ["white", "blue"],
   "preview": "preview.webp",
   "compatibility": {
     "themeSchemaVersion": 2,

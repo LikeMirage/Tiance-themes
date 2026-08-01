@@ -15,7 +15,7 @@ themes/<theme-id>/
 ```
 
 - `theme.json`：天策主题运行合同，当前要求 `schemaVersion: 2`。
-- `manifest.json`：版本、作者、简介、许可证和兼容范围。
+- `manifest.json`：版本、作者、简介、许可证、基色标签和兼容范围。
 - `preview.webp`：在线市场使用的轻量预览图。
 - `assets/`：主题背景等本地资源。
 

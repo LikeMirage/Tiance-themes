@@ -6,6 +6,7 @@
   },
   "summary": "以淡墨竹影和柔和留白营造安静工作氛围。",
   "license": "CC0-1.0",
+  "baseColors": ["white", "green"],
   "preview": "preview.webp",
   "compatibility": {
     "themeSchemaVersion": 2,

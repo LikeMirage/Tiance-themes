@@ -6,6 +6,7 @@
   },
   "summary": "以陕北雪原、山川和冬日天光构成的开阔主题。",
   "license": "CC0-1.0",
+  "baseColors": ["white", "red"],
   "preview": "preview.webp",
   "compatibility": {
     "themeSchemaVersion": 2,

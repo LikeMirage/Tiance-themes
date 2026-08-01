@@ -6,6 +6,7 @@
   },
   "summary": "以晨光、轻纱和麦穗意象构成柔暖主题。",
   "license": "CC0-1.0",
+  "baseColors": ["white", "brown"],
   "preview": "preview.webp",
   "compatibility": {
     "themeSchemaVersion": 2,

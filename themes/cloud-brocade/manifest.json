@@ -6,6 +6,7 @@
   },
   "summary": "以深蓝云锦暗纹和低调金色营造华贵氛围。",
   "license": "CC0-1.0",
+  "baseColors": ["black", "gold"],
   "preview": "preview.webp",
   "compatibility": {
     "themeSchemaVersion": 2,

@@ -14,7 +14,6 @@ REPOSITORY_ROOT = Path(__file__).resolve().parents[1]
 THEMES_ROOT = REPOSITORY_ROOT / "themes"
 SCHEMAS_ROOT = REPOSITORY_ROOT / "schemas"
 DIST_ROOT = REPOSITORY_ROOT / "dist"
-MARKET_BASE_URL = "https://likemirage.github.io/Tiance-themes"
 
 
 def main() -> None:
@@ -59,8 +58,9 @@ def _build_theme(theme_root: Path) -> dict[str, object]:
         "author": str(manifest["author"]["name"]),
         "summary": str(manifest["summary"]),
         "license": str(manifest["license"]),
-        "previewUrl": f"{MARKET_BASE_URL}/previews/{preview_name}",
-        "packageUrl": f"{MARKET_BASE_URL}/packages/{package_name}",
+        "baseColors": manifest["baseColors"],
+        "previewUrl": f"previews/{preview_name}",
+        "packageUrl": f"packages/{package_name}",
         "sha256": _sha256(package_target),
         "size": package_target.stat().st_size,
         "compatibility": manifest["compatibility"],

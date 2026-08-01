@@ -6,6 +6,7 @@
   },
   "summary": "以赤红山崖、火光和熔岩质感构成的炽烈暗色主题。",
   "license": "CC0-1.0",
+  "baseColors": ["black", "orange"],
   "preview": "preview.webp",
   "compatibility": {
     "themeSchemaVersion": 2,

@@ -6,6 +6,7 @@
   },
   "summary": "以玄黑山岳、暗红月色和水墨质感构成的夜景主题。",
   "license": "CC0-1.0",
+  "baseColors": ["black", "red"],
   "preview": "preview.webp",
   "compatibility": {
     "themeSchemaVersion": 2,

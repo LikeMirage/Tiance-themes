@@ -6,6 +6,7 @@
   },
   "summary": "以水墨雪山和寒川留白构成的清冷冬日主题。",
   "license": "CC0-1.0",
+  "baseColors": ["white", "blue"],
   "preview": "preview.webp",
   "compatibility": {
     "themeSchemaVersion": 2,

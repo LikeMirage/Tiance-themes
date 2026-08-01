@@ -6,6 +6,7 @@
   },
   "summary": "以雪山日照和金色晨光构成的温暖明亮主题。",
   "license": "CC0-1.0",
+  "baseColors": ["white", "gold"],
   "preview": "preview.webp",
   "compatibility": {
     "themeSchemaVersion": 2,

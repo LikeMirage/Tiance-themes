@@ -6,6 +6,7 @@
   },
   "summary": "融合敦煌纹饰、青璧色和鎏金质感的东方主题。",
   "license": "CC0-1.0",
+  "baseColors": ["green", "gold"],
   "preview": "preview.webp",
   "compatibility": {
     "themeSchemaVersion": 2,

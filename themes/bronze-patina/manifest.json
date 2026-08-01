@@ -6,6 +6,7 @@
   },
   "summary": "融合青铜器纹理与暗色金属质感的沉稳主题。",
   "license": "CC0-1.0",
+  "baseColors": ["black", "gold", "green"],
   "preview": "preview.webp",
   "compatibility": {
     "themeSchemaVersion": 2,

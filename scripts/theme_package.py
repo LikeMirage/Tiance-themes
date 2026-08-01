@@ -83,7 +83,8 @@ def _validate_theme(theme_id: str, theme: dict[str, Any], theme_root: Path) -> N
 
 def _validate_manifest(theme_id: str, manifest: dict[str, Any], theme_root: Path) -> None:
     expected_keys = {
-        "schemaVersion", "version", "author", "summary", "license", "preview", "compatibility"
+        "schemaVersion", "version", "author", "summary", "license", "baseColors", "preview",
+        "compatibility"
     }
     require(set(manifest) == expected_keys, f"{theme_id} 的 manifest 字段不完整或存在多余字段。")
     require(manifest["schemaVersion"] == 1, f"{theme_id} 只支持 manifest schemaVersion 1。")
@@ -93,6 +94,18 @@ def _validate_manifest(theme_id: str, manifest: dict[str, Any], theme_root: Path
     require(isinstance(author["name"], str) and author["name"].strip(), f"{theme_id} 缺少作者。")
     require(isinstance(manifest["summary"], str) and manifest["summary"].strip(), f"{theme_id} 缺少简介。")
     require(isinstance(manifest["license"], str) and manifest["license"].strip(), f"{theme_id} 缺少许可证。")
+    base_colors = manifest["baseColors"]
+    allowed_base_colors = {
+        "black", "white", "gray", "red", "orange", "gold", "green", "cyan", "blue",
+        "purple", "pink", "brown",
+    }
+    require(
+        isinstance(base_colors, list)
+        and bool(base_colors)
+        and len(base_colors) == len(set(base_colors))
+        and all(color in allowed_base_colors for color in base_colors),
+        f"{theme_id} 的 baseColors 非法。",
+    )
 
     preview = str(manifest["preview"])
     require(_is_safe_relative_path(preview), f"{theme_id} 的预览图路径非法。")

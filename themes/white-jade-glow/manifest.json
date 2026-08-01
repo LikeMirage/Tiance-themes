@@ -6,6 +6,7 @@
   },
   "summary": "以白玉纹理和柔和流光构成的通透雅致主题。",
   "license": "CC0-1.0",
+  "baseColors": ["white", "green"],
   "preview": "preview.webp",
   "compatibility": {
     "themeSchemaVersion": 2,

@@ -6,6 +6,7 @@
   },
   "summary": "以雾青色和简洁几何光影构成的现代办公主题。",
   "license": "CC0-1.0",
+  "baseColors": ["white", "cyan"],
   "preview": "preview.webp",
   "compatibility": {
     "themeSchemaVersion": 2,

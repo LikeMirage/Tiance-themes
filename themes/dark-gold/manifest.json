@@ -6,6 +6,7 @@
   },
   "summary": "以煤黑底色和暗金强调色构成的经典工作台主题。",
   "license": "CC0-1.0",
+  "baseColors": ["black", "gold"],
   "preview": "preview.webp",
   "compatibility": {
     "themeSchemaVersion": 2,

@@ -6,6 +6,7 @@
   },
   "summary": "以暗夜雅丹、荒漠风蚀地貌和金色天光构成的苍茫主题。",
   "license": "CC0-1.0",
+  "baseColors": ["black", "gold", "brown"],
   "preview": "preview.webp",
   "compatibility": {
     "themeSchemaVersion": 2,

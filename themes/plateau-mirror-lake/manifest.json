@@ -6,6 +6,7 @@
   },
   "summary": "以高原湖泊、雪线和澄澈天空构成的明净主题。",
   "license": "CC0-1.0",
+  "baseColors": ["white", "blue"],
   "preview": "preview.webp",
   "compatibility": {
     "themeSchemaVersion": 2,

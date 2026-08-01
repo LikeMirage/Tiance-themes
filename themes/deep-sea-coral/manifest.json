@@ -6,6 +6,7 @@
   },
   "summary": "以深海蓝绿和发光珊瑚构成的奇幻暗色主题。",
   "license": "CC0-1.0",
+  "baseColors": ["black", "cyan", "orange"],
   "preview": "preview.webp",
   "compatibility": {
     "themeSchemaVersion": 2,

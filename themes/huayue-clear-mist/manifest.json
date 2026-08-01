@@ -6,6 +6,7 @@
   },
   "summary": "以留白、几何山形和雾蓝色构成的现代山水主题。",
   "license": "CC0-1.0",
+  "baseColors": ["white", "blue"],
   "preview": "preview.webp",
   "compatibility": {
     "themeSchemaVersion": 2,

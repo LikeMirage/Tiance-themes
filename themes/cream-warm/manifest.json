@@ -6,6 +6,7 @@
   },
   "summary": "以奶油暖白和柔和棕金色构成的纯净主题。",
   "license": "CC0-1.0",
+  "baseColors": ["white", "brown"],
   "preview": "preview.webp",
   "compatibility": {
     "themeSchemaVersion": 2,

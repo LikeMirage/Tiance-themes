@@ -6,6 +6,7 @@
   },
   "summary": "以青瓷色水墨山峦构成清润通透的东方主题。",
   "license": "CC0-1.0",
+  "baseColors": ["white", "green"],
   "preview": "preview.webp",
   "compatibility": {
     "themeSchemaVersion": 2,

@@ -6,6 +6,7 @@
   },
   "summary": "紫云山岳与金色微光交织的东方暗色主题。",
   "license": "CC0-1.0",
+  "baseColors": ["purple", "gold"],
   "preview": "preview.webp",
   "compatibility": {
     "themeSchemaVersion": 2,

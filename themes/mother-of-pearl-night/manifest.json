@@ -6,6 +6,7 @@
   },
   "summary": "以黑色螺钿纹理和幽蓝流光构成的精致暗色主题。",
   "license": "CC0-1.0",
+  "baseColors": ["black", "cyan"],
   "preview": "preview.webp",
   "compatibility": {
     "themeSchemaVersion": 2,
