@@ -1,0 +1,122 @@
+{
+  "schemaVersion": 2,
+  "id": "bamboo-wind",
+  "name": "竹影听风",
+  "mode": "light",
+  "tokens": {
+    "color": {
+      "surface": {
+        "base": "#EEF1EC",
+        "panel": "rgba(250,251,247,0.92)",
+        "panelAlt": "rgba(243,247,241,0.93)",
+        "toolbar": "rgba(241,245,240,0.96)",
+        "titlebar": "rgba(235,241,235,0.97)",
+        "statusbar": "#E4ECE5",
+        "sidebar": "rgba(236,242,236,0.95)",
+        "canvas": "rgba(251,252,249,0.84)",
+        "elevated": "rgba(255,255,252,0.98)",
+        "muted": "#E8EEE7",
+        "overlay": "rgba(40,55,48,0.20)",
+        "menu": "rgba(254,255,251,0.99)",
+        "input": "rgba(255,255,252,0.94)",
+        "inputHover": "#FFFFFF",
+        "itemHover": "rgba(61,103,79,0.08)",
+        "itemHoverStrong": "rgba(61,103,79,0.15)"
+      },
+      "text": {
+        "primary": "#2E3B34",
+        "secondary": "#56665D",
+        "muted": "#7D8C83",
+        "heading": "#203029",
+        "headingAccent": "#3F7055",
+        "inverse": "#FAFFF9",
+        "selectionText": "#FFFFFF"
+      },
+      "border": {
+        "soft": "rgba(65,88,75,0.17)",
+        "subtle": "rgba(65,88,75,0.10)",
+        "strong": "rgba(52,83,66,0.29)",
+        "focus": "#56836A",
+        "separator": "rgba(65,88,75,0.14)"
+      },
+      "accent": {
+        "base": "#48755B",
+        "rgb": "72,117,91",
+        "hover": "#365F48",
+        "text": "#3F7055",
+        "softText": "#6D917C",
+        "selectionText": "#FFFFFF",
+        "selectionBgSubtle": "rgba(72,117,91,0.10)",
+        "selectionBg": "#48755B",
+        "selectionBgHover": "#365F48",
+        "selectionBorder": "rgba(72,117,91,0.58)",
+        "textSelectionBg": "rgba(72,117,91,0.76)"
+      },
+      "state": {
+        "danger": "#BC5555",
+        "dangerText": "#9C3D3D",
+        "dangerSoftText": "#AF6868",
+        "dangerBg": "#FBEFEF",
+        "dangerBorder": "#E2B8B8",
+        "warning": "#B3833F",
+        "warningText": "#835D25",
+        "success": "#4E8062",
+        "successText": "#39674D"
+      },
+      "collapse": {
+        "fadeStart": "rgba(251,252,249,0)",
+        "fadeMid": "rgba(251,252,249,0.75)",
+        "fadeEnd": "rgba(251,252,249,1)",
+        "caret": "#718078"
+      },
+      "scrollbar": {
+        "track": "transparent",
+        "thumb": "rgba(67,89,77,0.24)",
+        "thumbHover": "rgba(72,117,91,0.50)"
+      }
+    },
+    "structure": {
+      "color": "rgba(65,88,75,0.14)",
+      "hoverColor": "rgba(86,131,106,0.44)",
+      "activeColor": "#56836A",
+      "enabled": true,
+      "lines": {
+        "titlebarBottom": true,
+        "statusbarTop": true,
+        "navigationRight": true,
+        "sidePanelRight": true,
+        "assistantPanelLeft": true,
+        "contentSplit": true
+      },
+      "width": 1
+    },
+    "shadow": {
+      "floating": "0 16px 42px rgba(42,62,51,0.16)",
+      "panel": "0 4px 18px rgba(42,62,51,0.08)"
+    },
+    "editor": {
+      "background": "#F7FAF6",
+      "foreground": "#304038",
+      "gutterBackground": "#EDF2EC",
+      "gutterForeground": "#829087",
+      "activeLine": "rgba(72,117,91,0.07)",
+      "selectionMatch": "rgba(177,135,62,0.23)",
+      "tooltipBackground": "#FFFFFF"
+    },
+    "background": {
+      "image": "assets/bamboo-wind-theme-background-17eb575756.png",
+      "opacity": 0.55,
+      "blur": 1,
+      "overlay": "rgba(248,250,246,0.10)",
+      "position": "center",
+      "size": "cover",
+      "repeat": "no-repeat"
+    }
+  },
+  "integrations": {
+    "codeMirror": "light",
+    "shiki": "github-light-default",
+    "mermaid": "neutral",
+    "milkdown": "light"
+  }
+}

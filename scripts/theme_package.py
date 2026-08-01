@@ -69,6 +69,17 @@ def _validate_theme(theme_id: str, theme: dict[str, Any], theme_root: Path) -> N
         require(image.startswith("assets/"), f"{theme_id} 的背景必须位于 assets/。")
         require((theme_root / image).is_file(), f"{theme_id} 的背景文件不存在：{image}")
 
+    referenced_assets = set(_collect_asset_references(theme))
+    packaged_assets = {
+        path.relative_to(theme_root).as_posix()
+        for path in (theme_root / "assets").rglob("*")
+        if path.is_file()
+    } if (theme_root / "assets").is_dir() else set()
+    missing_assets = referenced_assets - packaged_assets
+    unused_assets = packaged_assets - referenced_assets
+    require(not missing_assets, f"{theme_id} 缺少资源：{', '.join(sorted(missing_assets))}")
+    require(not unused_assets, f"{theme_id} 包含未使用资源：{', '.join(sorted(unused_assets))}")
+
 
 def _validate_manifest(theme_id: str, manifest: dict[str, Any], theme_root: Path) -> None:
     expected_keys = {
@@ -111,3 +122,16 @@ def _read_object(path: Path) -> dict[str, Any]:
 def _is_safe_relative_path(value: str) -> bool:
     path = PurePosixPath(value.replace("\\", "/"))
     return bool(value) and not path.is_absolute() and ".." not in path.parts
+
+
+def _collect_asset_references(value: Any) -> list[str]:
+    if isinstance(value, dict):
+        return [reference for item in value.values() for reference in _collect_asset_references(item)]
+    if isinstance(value, list):
+        return [reference for item in value for reference in _collect_asset_references(item)]
+    if isinstance(value, str):
+        normalized = value.replace("\\", "/")
+        if normalized.startswith("assets/"):
+            require(_is_safe_relative_path(normalized), f"资源路径非法：{value}")
+            return [normalized]
+    return []

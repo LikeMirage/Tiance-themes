@@ -1,0 +1,122 @@
+{
+  "schemaVersion": 2,
+  "id": "rock-cliffs",
+  "name": "苍岩万仞",
+  "mode": "dark",
+  "tokens": {
+    "color": {
+      "surface": {
+        "base": "#0a0f14",
+        "panel": "rgba(14, 20, 27, 0.96)",
+        "panelAlt": "rgba(18, 25, 33, 0.95)",
+        "toolbar": "rgba(12, 18, 24, 0.97)",
+        "titlebar": "rgba(9, 14, 19, 0.98)",
+        "statusbar": "rgba(10, 16, 21, 0.98)",
+        "sidebar": "rgba(11, 17, 23, 0.97)",
+        "canvas": "rgba(12, 18, 24, 0.93)",
+        "elevated": "rgba(22, 30, 39, 0.98)",
+        "muted": "rgba(25, 33, 42, 0.94)",
+        "overlay": "rgba(4, 8, 12, 0.78)",
+        "menu": "rgba(18, 25, 33, 0.98)",
+        "input": "rgba(8, 14, 20, 0.97)",
+        "inputHover": "rgba(17, 25, 33, 0.98)",
+        "itemHover": "rgba(107, 137, 158, 0.13)",
+        "itemHoverStrong": "rgba(112, 145, 169, 0.22)"
+      },
+      "text": {
+        "primary": "#e5ebef",
+        "secondary": "#b8c4cc",
+        "muted": "#84929d",
+        "heading": "#f1f5f7",
+        "headingAccent": "#c2a27d",
+        "inverse": "#071016",
+        "selectionText": "#f7fbfd"
+      },
+      "border": {
+        "soft": "rgba(137, 159, 175, 0.25)",
+        "subtle": "rgba(115, 137, 153, 0.16)",
+        "strong": "rgba(165, 187, 201, 0.42)",
+        "focus": "#86a9c0",
+        "separator": "rgba(124, 146, 162, 0.22)"
+      },
+      "accent": {
+        "base": "#789bb3",
+        "rgb": "120, 155, 179",
+        "hover": "#91b2c8",
+        "text": "#9dbbd0",
+        "softText": "#7895a9",
+        "selectionText": "#f3f8fb",
+        "selectionBgSubtle": "rgba(120, 155, 179, 0.16)",
+        "selectionBg": "rgba(120, 155, 179, 0.28)",
+        "selectionBgHover": "rgba(134, 172, 198, 0.36)",
+        "selectionBorder": "rgba(145, 181, 204, 0.72)",
+        "textSelectionBg": "rgba(92, 133, 160, 0.72)"
+      },
+      "state": {
+        "danger": "#d46f72",
+        "dangerText": "#f1a3a5",
+        "dangerSoftText": "#d98d90",
+        "dangerBg": "rgba(151, 49, 54, 0.24)",
+        "dangerBorder": "rgba(217, 101, 105, 0.52)",
+        "warning": "#c5965d",
+        "warningText": "#e0bd8f",
+        "success": "#72aa91",
+        "successText": "#9ac8b3"
+      },
+      "collapse": {
+        "fadeStart": "rgba(14, 20, 27, 0)",
+        "fadeMid": "rgba(14, 20, 27, 0.78)",
+        "fadeEnd": "rgba(14, 20, 27, 0.98)",
+        "caret": "#9eb2c0"
+      },
+      "scrollbar": {
+        "track": "rgba(5, 10, 14, 0.38)",
+        "thumb": "rgba(115, 139, 156, 0.42)",
+        "thumbHover": "rgba(143, 171, 190, 0.62)"
+      }
+    },
+    "structure": {
+      "color": "rgba(126, 149, 166, 0.24)",
+      "hoverColor": "rgba(139, 174, 198, 0.62)",
+      "activeColor": "#9bbbd0",
+      "enabled": true,
+      "lines": {
+        "titlebarBottom": true,
+        "statusbarTop": true,
+        "navigationRight": true,
+        "sidePanelRight": true,
+        "assistantPanelLeft": true,
+        "contentSplit": true
+      },
+      "width": 1
+    },
+    "shadow": {
+      "floating": "0 14px 40px rgba(0, 0, 0, 0.58)",
+      "panel": "0 8px 24px rgba(0, 0, 0, 0.34)"
+    },
+    "editor": {
+      "background": "#0b1117",
+      "foreground": "#dce5ea",
+      "gutterBackground": "#090f14",
+      "gutterForeground": "#647581",
+      "activeLine": "rgba(113, 148, 171, 0.11)",
+      "selectionMatch": "rgba(181, 142, 97, 0.28)",
+      "tooltipBackground": "#151e27"
+    },
+    "background": {
+      "image": "assets/rock-cliffs-theme-background-4a23985d0b.png",
+      "opacity": 0.56,
+      "blur": 1,
+      "overlay": "rgba(4, 9, 14, 0.24)",
+      "position": "center",
+      "size": "cover",
+      "repeat": "no-repeat"
+    }
+  },
+  "integrations": {
+    "codeMirror": "dark",
+    "shiki": "github-dark-default",
+    "mermaid": "dark",
+    "milkdown": "dark"
+  }
+}

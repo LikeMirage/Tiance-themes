@@ -1,0 +1,122 @@
+{
+  "schemaVersion": 2,
+  "id": "ink-moon",
+  "name": "玄墨照月",
+  "mode": "dark",
+  "tokens": {
+    "color": {
+      "surface": {
+        "base": "#151310",
+        "panel": "rgba(29, 27, 23, 0.92)",
+        "panelAlt": "rgba(36, 33, 28, 0.91)",
+        "toolbar": "rgba(23, 21, 18, 0.96)",
+        "titlebar": "rgba(17, 16, 14, 0.98)",
+        "statusbar": "#1B1814",
+        "sidebar": "rgba(22, 20, 17, 0.95)",
+        "canvas": "rgba(20, 18, 16, 0.84)",
+        "elevated": "rgba(42, 38, 32, 0.98)",
+        "muted": "#29251F",
+        "overlay": "rgba(4, 3, 2, 0.64)",
+        "menu": "#2A261F",
+        "input": "rgba(39, 35, 29, 0.93)",
+        "inputHover": "#332E26",
+        "itemHover": "rgba(177, 65, 45, 0.11)",
+        "itemHoverStrong": "rgba(177, 65, 45, 0.20)"
+      },
+      "text": {
+        "primary": "#E3DED2",
+        "secondary": "#B9B0A1",
+        "muted": "#887F72",
+        "heading": "#F4F0E5",
+        "headingAccent": "#D2745D",
+        "inverse": "#17120F",
+        "selectionText": "#FFF8EE"
+      },
+      "border": {
+        "soft": "rgba(190, 179, 159, 0.16)",
+        "subtle": "rgba(190, 179, 159, 0.09)",
+        "strong": "rgba(182, 112, 82, 0.33)",
+        "focus": "#B94E38",
+        "separator": "rgba(190, 179, 159, 0.13)"
+      },
+      "accent": {
+        "base": "#A94330",
+        "rgb": "169, 67, 48",
+        "hover": "#C45B43",
+        "text": "#D2745D",
+        "softText": "#B77B68",
+        "selectionText": "#FFF8EE",
+        "selectionBgSubtle": "rgba(169, 67, 48, 0.15)",
+        "selectionBg": "#AD4935",
+        "selectionBgHover": "#C45B43",
+        "selectionBorder": "rgba(210, 116, 93, 0.68)",
+        "textSelectionBg": "rgba(145, 51, 36, 0.84)"
+      },
+      "state": {
+        "danger": "#E06A68",
+        "dangerText": "#FF9B97",
+        "dangerSoftText": "#D98B86",
+        "dangerBg": "rgba(152, 45, 43, 0.21)",
+        "dangerBorder": "rgba(224, 106, 104, 0.46)",
+        "warning": "#C99A4B",
+        "warningText": "#E0BA73",
+        "success": "#669979",
+        "successText": "#87BE98"
+      },
+      "collapse": {
+        "fadeStart": "rgba(20, 18, 16, 0)",
+        "fadeMid": "rgba(20, 18, 16, 0.79)",
+        "fadeEnd": "rgba(20, 18, 16, 1)",
+        "caret": "#968C7D"
+      },
+      "scrollbar": {
+        "track": "transparent",
+        "thumb": "rgba(177, 165, 145, 0.24)",
+        "thumbHover": "rgba(185, 78, 56, 0.55)"
+      }
+    },
+    "structure": {
+      "color": "rgba(177, 165, 145, 0.13)",
+      "hoverColor": "rgba(185, 78, 56, 0.50)",
+      "activeColor": "#C65A42",
+      "enabled": true,
+      "lines": {
+        "titlebarBottom": true,
+        "statusbarTop": true,
+        "navigationRight": true,
+        "sidePanelRight": true,
+        "assistantPanelLeft": true,
+        "contentSplit": true
+      },
+      "width": 1
+    },
+    "shadow": {
+      "floating": "0 20px 52px rgba(0, 0, 0, 0.57)",
+      "panel": "0 6px 25px rgba(0, 0, 0, 0.34)"
+    },
+    "editor": {
+      "background": "#1A1815",
+      "foreground": "#DED8CC",
+      "gutterBackground": "#141310",
+      "gutterForeground": "#776F64",
+      "activeLine": "rgba(169, 67, 48, 0.09)",
+      "selectionMatch": "rgba(179, 139, 71, 0.27)",
+      "tooltipBackground": "#302B24"
+    },
+    "background": {
+      "image": "assets/ink-moon-theme-background-ac689a14c8.png",
+      "opacity": 0.64,
+      "blur": 1,
+      "overlay": "rgba(10, 8, 6, 0.12)",
+      "position": "center",
+      "size": "cover",
+      "repeat": "no-repeat"
+    }
+  },
+  "integrations": {
+    "codeMirror": "dark",
+    "shiki": "github-dark-default",
+    "mermaid": "dark",
+    "milkdown": "dark"
+  }
+}

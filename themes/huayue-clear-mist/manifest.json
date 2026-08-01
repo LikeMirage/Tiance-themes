@@ -1,0 +1,14 @@
+{
+  "schemaVersion": 1,
+  "version": "1.0.0",
+  "author": {
+    "name": "LikeMirage"
+  },
+  "summary": "以留白、几何山形和雾蓝色构成的现代山水主题。",
+  "license": "CC0-1.0",
+  "preview": "preview.webp",
+  "compatibility": {
+    "themeSchemaVersion": 2,
+    "minTianceVersion": "0.1.0"
+  }
+}

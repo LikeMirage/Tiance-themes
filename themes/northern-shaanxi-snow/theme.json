@@ -1,0 +1,122 @@
+{
+  "schemaVersion": 2,
+  "id": "northern-shaanxi-snow",
+  "name": "北国风光",
+  "mode": "light",
+  "tokens": {
+    "color": {
+      "surface": {
+        "base": "rgba(246, 244, 238, 0.94)",
+        "panel": "rgba(252, 250, 245, 0.97)",
+        "panelAlt": "rgba(244, 241, 233, 0.96)",
+        "toolbar": "rgba(247, 244, 237, 0.97)",
+        "titlebar": "rgba(241, 238, 230, 0.98)",
+        "statusbar": "rgba(238, 235, 227, 0.98)",
+        "sidebar": "rgba(247, 245, 239, 0.97)",
+        "canvas": "rgba(250, 248, 243, 0.95)",
+        "elevated": "rgba(255, 254, 250, 0.99)",
+        "muted": "rgba(231, 228, 220, 0.95)",
+        "overlay": "rgba(64, 59, 52, 0.22)",
+        "menu": "rgba(255, 253, 248, 0.99)",
+        "input": "rgba(255, 254, 250, 0.98)",
+        "inputHover": "rgba(248, 244, 235, 0.99)",
+        "itemHover": "rgba(181, 145, 96, 0.12)",
+        "itemHoverStrong": "rgba(158, 63, 49, 0.14)"
+      },
+      "text": {
+        "primary": "#292824",
+        "secondary": "#55514A",
+        "muted": "#716B62",
+        "heading": "#24231F",
+        "headingAccent": "#873A2E",
+        "inverse": "#FFFDF8",
+        "selectionText": "#FFFDF8"
+      },
+      "border": {
+        "soft": "rgba(111, 98, 81, 0.25)",
+        "subtle": "rgba(111, 98, 81, 0.15)",
+        "strong": "rgba(117, 82, 52, 0.48)",
+        "focus": "#9E3F31",
+        "separator": "rgba(105, 99, 90, 0.24)"
+      },
+      "accent": {
+        "base": "#9E3F31",
+        "rgb": "158, 63, 49",
+        "hover": "#843328",
+        "text": "#873A2E",
+        "softText": "#A65E50",
+        "selectionText": "#FFFDF8",
+        "selectionBgSubtle": "rgba(158, 63, 49, 0.10)",
+        "selectionBg": "rgba(158, 63, 49, 0.18)",
+        "selectionBgHover": "rgba(158, 63, 49, 0.25)",
+        "selectionBorder": "rgba(158, 63, 49, 0.60)",
+        "textSelectionBg": "rgba(158, 63, 49, 0.78)"
+      },
+      "state": {
+        "danger": "#B33A35",
+        "dangerText": "#942E2A",
+        "dangerSoftText": "#AA5A54",
+        "dangerBg": "rgba(179, 58, 53, 0.10)",
+        "dangerBorder": "rgba(179, 58, 53, 0.38)",
+        "warning": "#A66A20",
+        "warningText": "#7D4D13",
+        "success": "#4E7658",
+        "successText": "#35583E"
+      },
+      "collapse": {
+        "fadeStart": "rgba(250, 248, 243, 0.00)",
+        "fadeMid": "rgba(250, 248, 243, 0.72)",
+        "fadeEnd": "rgba(250, 248, 243, 0.98)",
+        "caret": "#776A5A"
+      },
+      "scrollbar": {
+        "track": "rgba(102, 94, 82, 0.08)",
+        "thumb": "rgba(118, 105, 88, 0.34)",
+        "thumbHover": "rgba(158, 63, 49, 0.48)"
+      }
+    },
+    "structure": {
+      "color": "rgba(99, 91, 79, 0.24)",
+      "hoverColor": "rgba(158, 63, 49, 0.58)",
+      "activeColor": "#9E3F31",
+      "enabled": true,
+      "lines": {
+        "titlebarBottom": true,
+        "statusbarTop": true,
+        "navigationRight": true,
+        "sidePanelRight": true,
+        "assistantPanelLeft": true,
+        "contentSplit": true
+      },
+      "width": 1
+    },
+    "shadow": {
+      "floating": "0 14px 36px rgba(63, 55, 45, 0.18)",
+      "panel": "0 6px 18px rgba(68, 60, 50, 0.12)"
+    },
+    "editor": {
+      "background": "rgba(252, 250, 245, 0.98)",
+      "foreground": "#302E29",
+      "gutterBackground": "rgba(239, 236, 228, 0.98)",
+      "gutterForeground": "#7A7369",
+      "activeLine": "rgba(183, 145, 92, 0.11)",
+      "selectionMatch": "rgba(158, 63, 49, 0.18)",
+      "tooltipBackground": "rgba(255, 254, 250, 0.99)"
+    },
+    "background": {
+      "image": "assets/northern-shaanxi-snow-theme-background-4k-57be02eab7.png",
+      "opacity": 1.0,
+      "blur": 0,
+      "overlay": "rgba(250, 248, 242, 0.06)",
+      "position": "center center",
+      "size": "cover",
+      "repeat": "no-repeat"
+    }
+  },
+  "integrations": {
+    "codeMirror": "light",
+    "shiki": "github-light-default",
+    "mermaid": "neutral",
+    "milkdown": "light"
+  }
+}

@@ -1,0 +1,122 @@
+{
+  "schemaVersion": 2,
+  "id": "mother-of-pearl-night",
+  "name": "螺钿夜光",
+  "mode": "dark",
+  "tokens": {
+    "color": {
+      "surface": {
+        "base": "#05080F",
+        "panel": "rgba(7, 12, 21, 0.95)",
+        "panelAlt": "rgba(9, 16, 27, 0.94)",
+        "toolbar": "rgba(6, 11, 19, 0.96)",
+        "titlebar": "rgba(4, 8, 15, 0.97)",
+        "statusbar": "rgba(4, 9, 16, 0.97)",
+        "sidebar": "rgba(5, 10, 18, 0.97)",
+        "canvas": "rgba(5, 9, 17, 0.93)",
+        "elevated": "rgba(11, 18, 29, 0.98)",
+        "muted": "rgba(14, 22, 34, 0.94)",
+        "overlay": "rgba(2, 5, 10, 0.76)",
+        "menu": "rgba(9, 15, 25, 0.98)",
+        "input": "rgba(8, 14, 24, 0.96)",
+        "inputHover": "rgba(12, 22, 34, 0.97)",
+        "itemHover": "rgba(39, 104, 113, 0.16)",
+        "itemHoverStrong": "rgba(57, 139, 145, 0.24)"
+      },
+      "text": {
+        "primary": "#E7F0F2",
+        "secondary": "#B7C8CD",
+        "muted": "#84999F",
+        "heading": "#F1F7F7",
+        "headingAccent": "#A8D4D2",
+        "inverse": "#041012",
+        "selectionText": "#F7FFFF"
+      },
+      "border": {
+        "soft": "rgba(151, 190, 194, 0.20)",
+        "subtle": "rgba(132, 162, 169, 0.12)",
+        "strong": "rgba(147, 204, 204, 0.34)",
+        "focus": "#65AEB0",
+        "separator": "rgba(140, 174, 180, 0.16)"
+      },
+      "accent": {
+        "base": "#68AFAF",
+        "rgb": "104, 175, 175",
+        "hover": "#7FC2C0",
+        "text": "#A9D8D5",
+        "softText": "#7FAEAE",
+        "selectionText": "#E9FFFF",
+        "selectionBgSubtle": "rgba(74, 151, 153, 0.16)",
+        "selectionBg": "rgba(72, 151, 153, 0.27)",
+        "selectionBgHover": "rgba(86, 169, 168, 0.34)",
+        "selectionBorder": "rgba(125, 201, 197, 0.58)",
+        "textSelectionBg": "rgba(70, 145, 149, 0.58)"
+      },
+      "state": {
+        "danger": "#D0717A",
+        "dangerText": "#F2AAB1",
+        "dangerSoftText": "#C88990",
+        "dangerBg": "rgba(154, 55, 69, 0.18)",
+        "dangerBorder": "rgba(217, 105, 118, 0.42)",
+        "warning": "#C9A866",
+        "warningText": "#E5C98C",
+        "success": "#72B497",
+        "successText": "#A8D9C4"
+      },
+      "collapse": {
+        "fadeStart": "rgba(7, 12, 21, 0)",
+        "fadeMid": "rgba(7, 12, 21, 0.78)",
+        "fadeEnd": "rgba(7, 12, 21, 0.98)",
+        "caret": "#88B9B8"
+      },
+      "scrollbar": {
+        "track": "rgba(3, 7, 13, 0.34)",
+        "thumb": "rgba(119, 160, 166, 0.34)",
+        "thumbHover": "rgba(123, 190, 190, 0.52)"
+      }
+    },
+    "structure": {
+      "color": "rgba(127, 163, 170, 0.14)",
+      "hoverColor": "rgba(107, 184, 183, 0.42)",
+      "activeColor": "rgba(137, 207, 203, 0.62)",
+      "enabled": true,
+      "lines": {
+        "titlebarBottom": true,
+        "statusbarTop": true,
+        "navigationRight": true,
+        "sidePanelRight": true,
+        "assistantPanelLeft": true,
+        "contentSplit": true
+      },
+      "width": 1
+    },
+    "shadow": {
+      "floating": "0 18px 48px rgba(0, 0, 0, 0.52), 0 0 0 1px rgba(145, 195, 198, 0.10)",
+      "panel": "0 10px 30px rgba(0, 0, 0, 0.34)"
+    },
+    "editor": {
+      "background": "#060B13",
+      "foreground": "#DDE9EB",
+      "gutterBackground": "#050A11",
+      "gutterForeground": "#70868D",
+      "activeLine": "rgba(82, 145, 150, 0.12)",
+      "selectionMatch": "rgba(111, 174, 178, 0.28)",
+      "tooltipBackground": "#0C1520"
+    },
+    "background": {
+      "image": "assets/mother-of-pearl-night-theme-background-4k-f6ae258b15.png",
+      "opacity": 0.78,
+      "blur": 0,
+      "overlay": "rgba(2, 6, 13, 0.22)",
+      "position": "center",
+      "size": "cover",
+      "repeat": "no-repeat"
+    }
+  },
+  "integrations": {
+    "codeMirror": "dark",
+    "shiki": "github-dark-default",
+    "mermaid": "dark",
+    "milkdown": "dark"
+  }
+}

@@ -1,0 +1,122 @@
+{
+  "schemaVersion": 2,
+  "id": "sunlit-golden-mountain",
+  "name": "日照金山",
+  "mode": "light",
+  "tokens": {
+    "color": {
+      "surface": {
+        "base": "rgba(247, 246, 243, 0.95)",
+        "panel": "rgba(251, 249, 245, 0.96)",
+        "panelAlt": "rgba(244, 245, 244, 0.94)",
+        "toolbar": "rgba(247, 246, 242, 0.96)",
+        "titlebar": "rgba(249, 247, 243, 0.97)",
+        "statusbar": "rgba(239, 241, 242, 0.97)",
+        "sidebar": "rgba(246, 246, 244, 0.97)",
+        "canvas": "rgba(250, 249, 246, 0.93)",
+        "elevated": "rgba(255, 253, 249, 0.99)",
+        "muted": "rgba(233, 236, 238, 0.94)",
+        "overlay": "rgba(63, 69, 78, 0.18)",
+        "menu": "rgba(255, 253, 249, 0.99)",
+        "input": "rgba(255, 254, 251, 0.98)",
+        "inputHover": "rgba(250, 247, 240, 0.99)",
+        "itemHover": "rgba(213, 188, 145, 0.16)",
+        "itemHoverStrong": "rgba(189, 145, 73, 0.24)"
+      },
+      "text": {
+        "primary": "#3D3A35",
+        "secondary": "#5F6164",
+        "muted": "#7A7E82",
+        "heading": "#30343B",
+        "headingAccent": "#79501D",
+        "inverse": "#FFFDF8",
+        "selectionText": "#302617"
+      },
+      "border": {
+        "soft": "rgba(126, 128, 128, 0.22)",
+        "subtle": "rgba(139, 145, 151, 0.14)",
+        "strong": "rgba(151, 112, 52, 0.38)",
+        "focus": "#A56D24",
+        "separator": "rgba(112, 120, 128, 0.19)"
+      },
+      "accent": {
+        "base": "#A56D24",
+        "rgb": "165, 109, 36",
+        "hover": "#8F5A18",
+        "text": "#825416",
+        "softText": "#956B35",
+        "selectionText": "#493115",
+        "selectionBgSubtle": "rgba(196, 151, 80, 0.14)",
+        "selectionBg": "rgba(190, 140, 61, 0.22)",
+        "selectionBgHover": "rgba(180, 126, 43, 0.29)",
+        "selectionBorder": "rgba(159, 102, 27, 0.58)",
+        "textSelectionBg": "rgba(215, 176, 111, 0.42)"
+      },
+      "state": {
+        "danger": "#B44C45",
+        "dangerText": "#963D38",
+        "dangerSoftText": "#A8645F",
+        "dangerBg": "rgba(180, 76, 69, 0.11)",
+        "dangerBorder": "rgba(180, 76, 69, 0.34)",
+        "warning": "#B17822",
+        "warningText": "#805413",
+        "success": "#4F7F68",
+        "successText": "#3C6753"
+      },
+      "collapse": {
+        "fadeStart": "rgba(250, 249, 246, 0)",
+        "fadeMid": "rgba(250, 249, 246, 0.76)",
+        "fadeEnd": "rgba(250, 249, 246, 0.98)",
+        "caret": "#8A672E"
+      },
+      "scrollbar": {
+        "track": "rgba(128, 137, 145, 0.10)",
+        "thumb": "rgba(118, 124, 129, 0.32)",
+        "thumbHover": "rgba(151, 106, 43, 0.48)"
+      }
+    },
+    "structure": {
+      "color": "rgba(105, 115, 125, 0.20)",
+      "hoverColor": "rgba(165, 109, 36, 0.48)",
+      "activeColor": "rgba(143, 90, 24, 0.72)",
+      "enabled": true,
+      "lines": {
+        "titlebarBottom": true,
+        "statusbarTop": true,
+        "navigationRight": true,
+        "sidePanelRight": true,
+        "assistantPanelLeft": true,
+        "contentSplit": true
+      },
+      "width": 1
+    },
+    "shadow": {
+      "floating": "0 12px 34px rgba(61, 65, 72, 0.16), 0 2px 8px rgba(126, 91, 38, 0.08)",
+      "panel": "0 5px 18px rgba(73, 78, 84, 0.10)"
+    },
+    "editor": {
+      "background": "rgba(250, 250, 248, 0.97)",
+      "foreground": "#373B40",
+      "gutterBackground": "rgba(238, 240, 240, 0.96)",
+      "gutterForeground": "#85898D",
+      "activeLine": "rgba(203, 178, 132, 0.16)",
+      "selectionMatch": "rgba(211, 164, 86, 0.28)",
+      "tooltipBackground": "rgba(255, 253, 249, 0.99)"
+    },
+    "background": {
+      "image": "assets/sunlit-golden-mountain-theme-background-07bd242ab4.png",
+      "opacity": 0.57,
+      "blur": 1,
+      "overlay": "rgba(255, 251, 244, 0.12)",
+      "position": "center",
+      "size": "cover",
+      "repeat": "no-repeat"
+    }
+  },
+  "integrations": {
+    "codeMirror": "light",
+    "shiki": "github-light-default",
+    "mermaid": "neutral",
+    "milkdown": "light"
+  }
+}

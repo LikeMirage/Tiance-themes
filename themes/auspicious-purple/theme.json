@@ -1,0 +1,122 @@
+{
+  "schemaVersion": 2,
+  "id": "auspicious-purple",
+  "name": "紫气东来",
+  "mode": "dark",
+  "tokens": {
+    "color": {
+      "surface": {
+        "base": "#211A31",
+        "panel": "rgba(39,31,55,0.92)",
+        "panelAlt": "rgba(48,39,66,0.91)",
+        "toolbar": "rgba(32,25,47,0.96)",
+        "titlebar": "rgba(25,20,38,0.98)",
+        "statusbar": "#2A213E",
+        "sidebar": "rgba(29,23,43,0.95)",
+        "canvas": "rgba(31,25,47,0.84)",
+        "elevated": "rgba(54,44,73,0.98)",
+        "muted": "#342A49",
+        "overlay": "rgba(7,4,13,0.62)",
+        "menu": "#392E4F",
+        "input": "rgba(50,41,68,0.93)",
+        "inputHover": "#403453",
+        "itemHover": "rgba(203,169,103,0.11)",
+        "itemHoverStrong": "rgba(203,169,103,0.20)"
+      },
+      "text": {
+        "primary": "#E6DFEA",
+        "secondary": "#BBB1C5",
+        "muted": "#887D96",
+        "heading": "#F5EFF7",
+        "headingAccent": "#D8B873",
+        "inverse": "#211A2B",
+        "selectionText": "#FFF9E9"
+      },
+      "border": {
+        "soft": "rgba(190,176,200,0.16)",
+        "subtle": "rgba(190,176,200,0.09)",
+        "strong": "rgba(204,169,104,0.34)",
+        "focus": "#C8A25A",
+        "separator": "rgba(190,176,200,0.13)"
+      },
+      "accent": {
+        "base": "#B88F48",
+        "rgb": "184,143,72",
+        "hover": "#D0AA61",
+        "text": "#D8B873",
+        "softText": "#AF9A70",
+        "selectionText": "#241C2D",
+        "selectionBgSubtle": "rgba(184,143,72,0.15)",
+        "selectionBg": "#C49C52",
+        "selectionBgHover": "#D7B46A",
+        "selectionBorder": "rgba(216,184,115,0.70)",
+        "textSelectionBg": "rgba(145,106,42,0.83)"
+      },
+      "state": {
+        "danger": "#DC7078",
+        "dangerText": "#F5A0A6",
+        "dangerSoftText": "#D58C91",
+        "dangerBg": "rgba(149,48,57,0.21)",
+        "dangerBorder": "rgba(220,112,120,0.46)",
+        "warning": "#D1A34F",
+        "warningText": "#E6C078",
+        "success": "#70A487",
+        "successText": "#91C29F"
+      },
+      "collapse": {
+        "fadeStart": "rgba(31,25,47,0)",
+        "fadeMid": "rgba(31,25,47,0.79)",
+        "fadeEnd": "rgba(31,25,47,1)",
+        "caret": "#998DA6"
+      },
+      "scrollbar": {
+        "track": "transparent",
+        "thumb": "rgba(174,160,187,0.24)",
+        "thumbHover": "rgba(200,162,90,0.55)"
+      }
+    },
+    "structure": {
+      "color": "rgba(177,162,190,0.13)",
+      "hoverColor": "rgba(200,162,90,0.50)",
+      "activeColor": "#C8A25A",
+      "enabled": true,
+      "lines": {
+        "titlebarBottom": true,
+        "statusbarTop": true,
+        "navigationRight": true,
+        "sidePanelRight": true,
+        "assistantPanelLeft": true,
+        "contentSplit": true
+      },
+      "width": 1
+    },
+    "shadow": {
+      "floating": "0 20px 52px rgba(4,2,10,0.56)",
+      "panel": "0 6px 25px rgba(4,2,10,0.34)"
+    },
+    "editor": {
+      "background": "#271F38",
+      "foreground": "#E0D9E5",
+      "gutterBackground": "#1D172B",
+      "gutterForeground": "#796E87",
+      "activeLine": "rgba(184,143,72,0.09)",
+      "selectionMatch": "rgba(91,123,170,0.29)",
+      "tooltipBackground": "#3A2F50"
+    },
+    "background": {
+      "image": "assets/auspicious-purple-theme-background-2725acea95.png",
+      "opacity": 0.57,
+      "blur": 1,
+      "overlay": "rgba(18,12,29,0.14)",
+      "position": "center",
+      "size": "cover",
+      "repeat": "no-repeat"
+    }
+  },
+  "integrations": {
+    "codeMirror": "dark",
+    "shiki": "github-dark-default",
+    "mermaid": "dark",
+    "milkdown": "dark"
+  }
+}

@@ -1,0 +1,122 @@
+{
+  "schemaVersion": 2,
+  "id": "red-cliff-fire",
+  "name": "赤壁流火",
+  "mode": "dark",
+  "tokens": {
+    "color": {
+      "surface": {
+        "base": "#1B100D",
+        "panel": "rgba(39,22,18,0.92)",
+        "panelAlt": "rgba(49,27,22,0.91)",
+        "toolbar": "rgba(31,17,14,0.96)",
+        "titlebar": "rgba(23,12,10,0.98)",
+        "statusbar": "#291512",
+        "sidebar": "rgba(28,15,13,0.95)",
+        "canvas": "rgba(29,16,13,0.84)",
+        "elevated": "rgba(55,30,24,0.98)",
+        "muted": "#39201A",
+        "overlay": "rgba(8,2,1,0.65)",
+        "menu": "#3B211A",
+        "input": "rgba(51,28,23,0.93)",
+        "inputHover": "#47261F",
+        "itemHover": "rgba(210,137,57,0.11)",
+        "itemHoverStrong": "rgba(210,137,57,0.20)"
+      },
+      "text": {
+        "primary": "#E9DED3",
+        "secondary": "#C0ADA0",
+        "muted": "#907B70",
+        "heading": "#F7EEE5",
+        "headingAccent": "#D9A45D",
+        "inverse": "#21120E",
+        "selectionText": "#FFF6E8"
+      },
+      "border": {
+        "soft": "rgba(201,178,158,0.16)",
+        "subtle": "rgba(201,178,158,0.09)",
+        "strong": "rgba(215,139,63,0.34)",
+        "focus": "#C8833C",
+        "separator": "rgba(201,178,158,0.13)"
+      },
+      "accent": {
+        "base": "#B96D31",
+        "rgb": "185,109,49",
+        "hover": "#D28B43",
+        "text": "#D9A45D",
+        "softText": "#B89270",
+        "selectionText": "#24120D",
+        "selectionBgSubtle": "rgba(185,109,49,0.15)",
+        "selectionBg": "#C77C38",
+        "selectionBgHover": "#DC974C",
+        "selectionBorder": "rgba(217,164,93,0.70)",
+        "textSelectionBg": "rgba(151,72,29,0.84)"
+      },
+      "state": {
+        "danger": "#E06055",
+        "dangerText": "#F7958C",
+        "dangerSoftText": "#D98279",
+        "dangerBg": "rgba(153,43,34,0.22)",
+        "dangerBorder": "rgba(224,96,85,0.47)",
+        "warning": "#D19A45",
+        "warningText": "#E7BB71",
+        "success": "#6F9B72",
+        "successText": "#91BE93"
+      },
+      "collapse": {
+        "fadeStart": "rgba(29,16,13,0)",
+        "fadeMid": "rgba(29,16,13,0.80)",
+        "fadeEnd": "rgba(29,16,13,1)",
+        "caret": "#9E897C"
+      },
+      "scrollbar": {
+        "track": "transparent",
+        "thumb": "rgba(187,160,141,0.24)",
+        "thumbHover": "rgba(200,131,60,0.55)"
+      }
+    },
+    "structure": {
+      "color": "rgba(187,159,139,0.13)",
+      "hoverColor": "rgba(200,131,60,0.50)",
+      "activeColor": "#C8833C",
+      "enabled": true,
+      "lines": {
+        "titlebarBottom": true,
+        "statusbarTop": true,
+        "navigationRight": true,
+        "sidePanelRight": true,
+        "assistantPanelLeft": true,
+        "contentSplit": true
+      },
+      "width": 1
+    },
+    "shadow": {
+      "floating": "0 20px 52px rgba(5,0,0,0.58)",
+      "panel": "0 6px 25px rgba(5,0,0,0.35)"
+    },
+    "editor": {
+      "background": "#241512",
+      "foreground": "#E3D8CE",
+      "gutterBackground": "#190E0C",
+      "gutterForeground": "#806B61",
+      "activeLine": "rgba(185,109,49,0.09)",
+      "selectionMatch": "rgba(67,121,139,0.29)",
+      "tooltipBackground": "#3D231C"
+    },
+    "background": {
+      "image": "assets/red-cliff-fire-theme-background-70f6eff18f.png",
+      "opacity": 0.58,
+      "blur": 1,
+      "overlay": "rgba(15,5,3,0.15)",
+      "position": "center",
+      "size": "cover",
+      "repeat": "no-repeat"
+    }
+  },
+  "integrations": {
+    "codeMirror": "dark",
+    "shiki": "github-dark-default",
+    "mermaid": "dark",
+    "milkdown": "dark"
+  }
+}

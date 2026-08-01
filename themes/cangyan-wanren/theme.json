@@ -1,0 +1,122 @@
+{
+  "schemaVersion": 2,
+  "id": "cangyan-wanren",
+  "name": "苍岩万仞",
+  "mode": "dark",
+  "tokens": {
+    "color": {
+      "surface": {
+        "base": "rgba(12, 19, 26, 0.88)",
+        "panel": "rgba(24, 35, 45, 0.945)",
+        "panelAlt": "rgba(30, 43, 54, 0.94)",
+        "toolbar": "rgba(18, 28, 37, 0.97)",
+        "titlebar": "rgba(13, 21, 29, 0.98)",
+        "statusbar": "rgba(13, 22, 30, 0.98)",
+        "sidebar": "rgba(20, 30, 39, 0.972)",
+        "canvas": "rgba(19, 29, 38, 0.90)",
+        "elevated": "rgba(31, 44, 55, 0.985)",
+        "muted": "rgba(39, 52, 62, 0.78)",
+        "overlay": "rgba(5, 9, 13, 0.72)",
+        "menu": "rgba(25, 37, 47, 0.99)",
+        "input": "rgba(12, 21, 29, 0.99)",
+        "inputHover": "rgba(18, 30, 40, 0.99)",
+        "itemHover": "rgba(145, 178, 196, 0.10)",
+        "itemHoverStrong": "rgba(145, 178, 196, 0.18)"
+      },
+      "text": {
+        "primary": "#DCE6EB",
+        "secondary": "#C1CFD6",
+        "muted": "#A1B1BA",
+        "heading": "#ECF3F6",
+        "headingAccent": "#B9D1DC",
+        "inverse": "#111922",
+        "selectionText": "#F4F8FA"
+      },
+      "border": {
+        "soft": "rgba(151, 177, 190, 0.32)",
+        "subtle": "rgba(138, 161, 174, 0.22)",
+        "strong": "rgba(164, 194, 207, 0.48)",
+        "focus": "#91B2C4",
+        "separator": "rgba(143, 168, 181, 0.28)"
+      },
+      "accent": {
+        "base": "#91B2C4",
+        "rgb": "145, 178, 196",
+        "hover": "#A8C5D3",
+        "text": "#B9D2DE",
+        "softText": "#90ADBB",
+        "selectionText": "#EAF2F5",
+        "selectionBgSubtle": "rgba(145, 178, 196, 0.12)",
+        "selectionBg": "rgba(145, 178, 196, 0.22)",
+        "selectionBgHover": "rgba(157, 191, 207, 0.29)",
+        "selectionBorder": "rgba(169, 200, 215, 0.78)",
+        "textSelectionBg": "rgba(102, 143, 165, 0.58)"
+      },
+      "state": {
+        "danger": "#D87878",
+        "dangerText": "#F1B4B4",
+        "dangerSoftText": "#D89A9A",
+        "dangerBg": "rgba(146, 52, 57, 0.22)",
+        "dangerBorder": "rgba(216, 120, 120, 0.58)",
+        "warning": "#C8A66B",
+        "warningText": "#E7C991",
+        "success": "#72B59A",
+        "successText": "#A7D7C4"
+      },
+      "collapse": {
+        "fadeStart": "rgba(24, 35, 45, 0)",
+        "fadeMid": "rgba(24, 35, 45, 0.72)",
+        "fadeEnd": "rgba(24, 35, 45, 0.98)",
+        "caret": "#9BB5C2"
+      },
+      "scrollbar": {
+        "track": "rgba(7, 12, 17, 0.26)",
+        "thumb": "rgba(125, 153, 168, 0.46)",
+        "thumbHover": "rgba(157, 190, 206, 0.70)"
+      }
+    },
+    "structure": {
+      "color": "rgba(135, 163, 177, 0.36)",
+      "hoverColor": "rgba(159, 194, 210, 0.62)",
+      "activeColor": "#A9C8D7",
+      "enabled": true,
+      "lines": {
+        "titlebarBottom": true,
+        "statusbarTop": true,
+        "navigationRight": true,
+        "sidePanelRight": true,
+        "assistantPanelLeft": true,
+        "contentSplit": true
+      },
+      "width": 1
+    },
+    "shadow": {
+      "floating": "0 18px 44px rgba(0, 5, 9, 0.58)",
+      "panel": "0 8px 24px rgba(0, 5, 9, 0.40)"
+    },
+    "editor": {
+      "background": "rgba(12, 20, 28, 0.94)",
+      "foreground": "#D9E4E9",
+      "gutterBackground": "rgba(15, 25, 34, 0.98)",
+      "gutterForeground": "#8297A2",
+      "activeLine": "rgba(145, 178, 196, 0.11)",
+      "selectionMatch": "rgba(196, 166, 107, 0.28)",
+      "tooltipBackground": "rgba(27, 40, 51, 0.99)"
+    },
+    "background": {
+      "image": "assets/cangyan-wanren-background-0935e6e8f3.png",
+      "opacity": 0.58,
+      "blur": 0,
+      "overlay": "rgba(4, 9, 14, 0.18)",
+      "position": "center",
+      "size": "cover",
+      "repeat": "no-repeat"
+    }
+  },
+  "integrations": {
+    "codeMirror": "dark",
+    "shiki": "github-dark-default",
+    "mermaid": "dark",
+    "milkdown": "dark"
+  }
+}

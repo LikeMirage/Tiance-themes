@@ -1,0 +1,122 @@
+{
+  "schemaVersion": 2,
+  "id": "dunhuang-jade",
+  "name": "敦煌青璧",
+  "mode": "dark",
+  "tokens": {
+    "color": {
+      "surface": {
+        "base": "#0E2A28",
+        "panel": "rgba(18, 49, 46, 0.92)",
+        "panelAlt": "rgba(23, 58, 54, 0.91)",
+        "toolbar": "rgba(13, 42, 40, 0.96)",
+        "titlebar": "rgba(9, 34, 32, 0.98)",
+        "statusbar": "#103B37",
+        "sidebar": "rgba(11, 39, 37, 0.95)",
+        "canvas": "rgba(12, 43, 40, 0.84)",
+        "elevated": "rgba(27, 65, 60, 0.98)",
+        "muted": "#173F3B",
+        "overlay": "rgba(2, 14, 13, 0.61)",
+        "menu": "#1B4A45",
+        "input": "rgba(25, 61, 57, 0.93)",
+        "inputHover": "#22554F",
+        "itemHover": "rgba(200, 151, 73, 0.11)",
+        "itemHoverStrong": "rgba(200, 151, 73, 0.20)"
+      },
+      "text": {
+        "primary": "#E5E0CF",
+        "secondary": "#BBB7A6",
+        "muted": "#82938B",
+        "heading": "#F4F0DE",
+        "headingAccent": "#D5B36C",
+        "inverse": "#102522",
+        "selectionText": "#FFF9E9"
+      },
+      "border": {
+        "soft": "rgba(177, 195, 181, 0.17)",
+        "subtle": "rgba(177, 195, 181, 0.10)",
+        "strong": "rgba(201, 158, 82, 0.34)",
+        "focus": "#C89949",
+        "separator": "rgba(177, 195, 181, 0.14)"
+      },
+      "accent": {
+        "base": "#B8873E",
+        "rgb": "184, 135, 62",
+        "hover": "#D0A355",
+        "text": "#D9B873",
+        "softText": "#AF9A6B",
+        "selectionText": "#132A27",
+        "selectionBgSubtle": "rgba(184, 135, 62, 0.15)",
+        "selectionBg": "#C5964B",
+        "selectionBgHover": "#D8AD62",
+        "selectionBorder": "rgba(217, 184, 115, 0.70)",
+        "textSelectionBg": "rgba(151, 103, 37, 0.83)"
+      },
+      "state": {
+        "danger": "#D86A61",
+        "dangerText": "#F39A91",
+        "dangerSoftText": "#CF8A82",
+        "dangerBg": "rgba(145, 48, 42, 0.21)",
+        "dangerBorder": "rgba(216, 106, 97, 0.46)",
+        "warning": "#D1A34F",
+        "warningText": "#E5C076",
+        "success": "#67A47F",
+        "successText": "#89C19B"
+      },
+      "collapse": {
+        "fadeStart": "rgba(12, 43, 40, 0)",
+        "fadeMid": "rgba(12, 43, 40, 0.79)",
+        "fadeEnd": "rgba(12, 43, 40, 1)",
+        "caret": "#91A198"
+      },
+      "scrollbar": {
+        "track": "transparent",
+        "thumb": "rgba(156, 181, 168, 0.25)",
+        "thumbHover": "rgba(200, 153, 73, 0.55)"
+      }
+    },
+    "structure": {
+      "color": "rgba(159, 185, 171, 0.14)",
+      "hoverColor": "rgba(200, 153, 73, 0.50)",
+      "activeColor": "#C89949",
+      "enabled": true,
+      "lines": {
+        "titlebarBottom": true,
+        "statusbarTop": true,
+        "navigationRight": true,
+        "sidePanelRight": true,
+        "assistantPanelLeft": true,
+        "contentSplit": true
+      },
+      "width": 1
+    },
+    "shadow": {
+      "floating": "0 20px 52px rgba(0, 8, 7, 0.55)",
+      "panel": "0 6px 25px rgba(0, 8, 7, 0.33)"
+    },
+    "editor": {
+      "background": "#123632",
+      "foreground": "#DEDCCD",
+      "gutterBackground": "#0D2B29",
+      "gutterForeground": "#718A80",
+      "activeLine": "rgba(184, 135, 62, 0.09)",
+      "selectionMatch": "rgba(51, 100, 145, 0.30)",
+      "tooltipBackground": "#204E49"
+    },
+    "background": {
+      "image": "assets/dunhuang-jade-theme-background-88fe2c82ee.png",
+      "opacity": 0.56,
+      "blur": 1,
+      "overlay": "rgba(5, 30, 27, 0.15)",
+      "position": "center",
+      "size": "cover",
+      "repeat": "no-repeat"
+    }
+  },
+  "integrations": {
+    "codeMirror": "dark",
+    "shiki": "github-dark-default",
+    "mermaid": "dark",
+    "milkdown": "dark"
+  }
+}

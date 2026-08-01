@@ -1,0 +1,122 @@
+{
+  "schemaVersion": 2,
+  "id": "deep-sea-coral",
+  "name": "深海珊瑚",
+  "mode": "dark",
+  "tokens": {
+    "color": {
+      "surface": {
+        "base": "#0d1a1e",
+        "panel": "#112428",
+        "panelAlt": "#0f1d22",
+        "toolbar": "#0e1c20",
+        "titlebar": "#091518",
+        "statusbar": "#091518",
+        "sidebar": "#0f1e22",
+        "canvas": "#0b181c",
+        "elevated": "#162c30",
+        "muted": "#0e1b1f",
+        "overlay": "rgba(8, 22, 26, 0.9)",
+        "menu": "#162c30",
+        "input": "#0f1e22",
+        "inputHover": "#13272c",
+        "itemHover": "#1a3238",
+        "itemHoverStrong": "#1f3e44"
+      },
+      "text": {
+        "primary": "#d8e4e8",
+        "secondary": "#8aa8b2",
+        "muted": "#5a7a84",
+        "heading": "#e8f2f5",
+        "headingAccent": "#f0a088",
+        "inverse": "#0d1a1e",
+        "selectionText": "#ffffff"
+      },
+      "border": {
+        "soft": "rgba(100, 160, 175, 0.2)",
+        "subtle": "rgba(100, 160, 175, 0.12)",
+        "strong": "rgba(80, 150, 165, 0.3)",
+        "focus": "rgba(240, 140, 110, 0.55)",
+        "separator": "rgba(100, 160, 175, 0.16)"
+      },
+      "accent": {
+        "base": "#e8826a",
+        "rgb": "232, 130, 106",
+        "hover": "#f09878",
+        "text": "#f0a088",
+        "softText": "#d89078",
+        "selectionText": "#ffffff",
+        "selectionBgSubtle": "rgba(232, 130, 106, 0.12)",
+        "selectionBg": "rgba(232, 130, 106, 0.22)",
+        "selectionBgHover": "rgba(232, 130, 106, 0.32)",
+        "selectionBorder": "rgba(232, 130, 106, 0.45)",
+        "textSelectionBg": "rgba(232, 130, 106, 0.35)"
+      },
+      "state": {
+        "danger": "#e0556a",
+        "dangerText": "#f08090",
+        "dangerSoftText": "#d06070",
+        "dangerBg": "rgba(224, 85, 106, 0.15)",
+        "dangerBorder": "rgba(224, 85, 106, 0.4)",
+        "warning": "#e0a850",
+        "warningText": "#f0c060",
+        "success": "#60b890",
+        "successText": "#70d0a0"
+      },
+      "collapse": {
+        "fadeStart": "transparent",
+        "fadeMid": "rgba(13, 26, 30, 0.65)",
+        "fadeEnd": "#0d1a1e",
+        "caret": "#5a8a94"
+      },
+      "scrollbar": {
+        "track": "transparent",
+        "thumb": "rgba(100, 160, 175, 0.25)",
+        "thumbHover": "rgba(100, 160, 175, 0.45)"
+      }
+    },
+    "structure": {
+      "enabled": true,
+      "width": 1,
+      "color": "rgba(100, 160, 175, 0.16)",
+      "hoverColor": "rgba(80, 150, 165, 0.3)",
+      "activeColor": "rgba(240, 140, 110, 0.55)",
+      "lines": {
+        "titlebarBottom": true,
+        "statusbarTop": true,
+        "navigationRight": true,
+        "sidePanelRight": true,
+        "assistantPanelLeft": true,
+        "contentSplit": true
+      }
+    },
+    "shadow": {
+      "floating": "0 2px 16px rgba(0, 0, 0, 0.4)",
+      "panel": "0 1px 6px rgba(0, 0, 0, 0.3)"
+    },
+    "editor": {
+      "background": "#0f1e22",
+      "foreground": "#d8e4e8",
+      "gutterBackground": "#0d1a1e",
+      "gutterForeground": "#5a7a84",
+      "activeLine": "rgba(232, 130, 106, 0.06)",
+      "selectionMatch": "rgba(232, 130, 106, 0.22)",
+      "tooltipBackground": "#162c30"
+    },
+    "background": {
+      "image": "assets/deep-sea-coral-dmxapi_image_20260705_201759-31e3d2d8e3.png",
+      "opacity": 0.65,
+      "blur": 0,
+      "overlay": "rgba(8, 18, 22, 0.1)",
+      "position": "center",
+      "size": "cover",
+      "repeat": "no-repeat"
+    }
+  },
+  "integrations": {
+    "codeMirror": "dark",
+    "shiki": "github-dark",
+    "mermaid": "dark",
+    "milkdown": "dark"
+  }
+}

@@ -1,0 +1,122 @@
+{
+  "schemaVersion": 2,
+  "id": "yardang-wind",
+  "name": "雅丹长风",
+  "mode": "dark",
+  "tokens": {
+    "color": {
+      "surface": {
+        "base": "rgba(18, 14, 11, 0.96)",
+        "panel": "rgba(28, 22, 17, 0.95)",
+        "panelAlt": "rgba(35, 27, 20, 0.94)",
+        "toolbar": "rgba(23, 18, 14, 0.97)",
+        "titlebar": "rgba(16, 13, 10, 0.98)",
+        "statusbar": "rgba(18, 14, 11, 0.98)",
+        "sidebar": "rgba(24, 19, 15, 0.96)",
+        "canvas": "rgba(20, 16, 13, 0.92)",
+        "elevated": "rgba(43, 33, 24, 0.97)",
+        "muted": "rgba(47, 37, 28, 0.94)",
+        "overlay": "rgba(10, 8, 6, 0.96)",
+        "menu": "rgba(38, 29, 22, 0.98)",
+        "input": "rgba(14, 11, 9, 0.96)",
+        "inputHover": "rgba(34, 26, 19, 0.97)",
+        "itemHover": "rgba(93, 66, 38, 0.94)",
+        "itemHoverStrong": "rgba(121, 83, 43, 0.95)"
+      },
+      "text": {
+        "primary": "#F1E8DA",
+        "secondary": "#CDBEAA",
+        "muted": "#9F907D",
+        "heading": "#FFF4E3",
+        "headingAccent": "#E2B86F",
+        "inverse": "#1B130C",
+        "selectionText": "#FFF9EF"
+      },
+      "border": {
+        "soft": "rgba(171, 129, 75, 0.38)",
+        "subtle": "rgba(151, 112, 68, 0.24)",
+        "strong": "rgba(204, 156, 88, 0.62)",
+        "focus": "#D8A85A",
+        "separator": "rgba(169, 127, 75, 0.32)"
+      },
+      "accent": {
+        "base": "#C8954E",
+        "rgb": "200, 149, 78",
+        "hover": "#DCAA5F",
+        "text": "#E4BC78",
+        "softText": "#C7A46B",
+        "selectionText": "#FFF6E7",
+        "selectionBgSubtle": "rgba(200, 149, 78, 0.18)",
+        "selectionBg": "rgba(200, 149, 78, 0.30)",
+        "selectionBgHover": "rgba(220, 170, 95, 0.38)",
+        "selectionBorder": "rgba(226, 177, 103, 0.72)",
+        "textSelectionBg": "rgba(173, 119, 54, 0.72)"
+      },
+      "state": {
+        "danger": "#D16F5A",
+        "dangerText": "#F2A291",
+        "dangerSoftText": "#D98C7C",
+        "dangerBg": "rgba(111, 42, 32, 0.50)",
+        "dangerBorder": "rgba(209, 111, 90, 0.72)",
+        "warning": "#D4A34F",
+        "warningText": "#EDC879",
+        "success": "#7FA779",
+        "successText": "#A9C9A3"
+      },
+      "collapse": {
+        "fadeStart": "rgba(28, 22, 17, 0.00)",
+        "fadeMid": "rgba(28, 22, 17, 0.72)",
+        "fadeEnd": "rgba(28, 22, 17, 0.98)",
+        "caret": "#D5AA64"
+      },
+      "scrollbar": {
+        "track": "rgba(13, 10, 8, 0.56)",
+        "thumb": "rgba(155, 113, 66, 0.62)",
+        "thumbHover": "rgba(203, 151, 81, 0.82)"
+      }
+    },
+    "structure": {
+      "color": "rgba(148, 108, 63, 0.34)",
+      "hoverColor": "rgba(213, 163, 91, 0.70)",
+      "activeColor": "#E4B96D",
+      "enabled": true,
+      "lines": {
+        "titlebarBottom": true,
+        "statusbarTop": true,
+        "navigationRight": true,
+        "sidePanelRight": true,
+        "assistantPanelLeft": true,
+        "contentSplit": true
+      },
+      "width": 1
+    },
+    "shadow": {
+      "floating": "0 16px 44px rgba(0, 0, 0, 0.62)",
+      "panel": "0 8px 24px rgba(0, 0, 0, 0.42)"
+    },
+    "editor": {
+      "background": "#15110E",
+      "foreground": "#E9DFD0",
+      "gutterBackground": "#100D0B",
+      "gutterForeground": "#806F5C",
+      "activeLine": "rgba(134, 91, 47, 0.22)",
+      "selectionMatch": "rgba(200, 149, 78, 0.30)",
+      "tooltipBackground": "#30251C"
+    },
+    "background": {
+      "image": "assets/yardang-wind-theme-background-4k-5398318720.png",
+      "opacity": 1.0,
+      "blur": 0,
+      "overlay": "rgba(13, 9, 7, 0.18)",
+      "position": "center",
+      "size": "cover",
+      "repeat": "no-repeat"
+    }
+  },
+  "integrations": {
+    "codeMirror": "dark",
+    "shiki": "github-dark-default",
+    "mermaid": "dark",
+    "milkdown": "dark"
+  }
+}

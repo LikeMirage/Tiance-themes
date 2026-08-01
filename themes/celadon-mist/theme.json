@@ -1,0 +1,122 @@
+{
+  "schemaVersion": 2,
+  "id": "celadon-mist",
+  "name": "青瓷云岫",
+  "mode": "light",
+  "tokens": {
+    "color": {
+      "surface": {
+        "base": "#EEF2EC",
+        "panel": "rgba(249, 249, 244, 0.90)",
+        "panelAlt": "rgba(241, 245, 239, 0.92)",
+        "toolbar": "rgba(238, 243, 237, 0.95)",
+        "titlebar": "rgba(232, 239, 233, 0.97)",
+        "statusbar": "#E3EBE4",
+        "sidebar": "rgba(232, 239, 233, 0.94)",
+        "canvas": "rgba(250, 249, 243, 0.80)",
+        "elevated": "rgba(255, 254, 248, 0.98)",
+        "muted": "#E8EEE7",
+        "overlay": "rgba(37, 56, 50, 0.20)",
+        "menu": "rgba(253, 252, 246, 0.98)",
+        "input": "rgba(255, 254, 249, 0.92)",
+        "inputHover": "#FFFDF7",
+        "itemHover": "rgba(63, 111, 94, 0.08)",
+        "itemHoverStrong": "rgba(63, 111, 94, 0.15)"
+      },
+      "text": {
+        "primary": "#293833",
+        "secondary": "#52645E",
+        "muted": "#7B8B85",
+        "heading": "#1D302A",
+        "headingAccent": "#356E5C",
+        "inverse": "#FFFDF7",
+        "selectionText": "#FFFFFF"
+      },
+      "border": {
+        "soft": "rgba(66, 91, 82, 0.17)",
+        "subtle": "rgba(66, 91, 82, 0.10)",
+        "strong": "rgba(54, 87, 75, 0.30)",
+        "focus": "#4B8873",
+        "separator": "rgba(66, 91, 82, 0.14)"
+      },
+      "accent": {
+        "base": "#3F7664",
+        "rgb": "63, 118, 100",
+        "hover": "#315F50",
+        "text": "#356E5C",
+        "softText": "#668F80",
+        "selectionText": "#FFFFFF",
+        "selectionBgSubtle": "rgba(63, 118, 100, 0.10)",
+        "selectionBg": "#3F7664",
+        "selectionBgHover": "#315F50",
+        "selectionBorder": "rgba(63, 118, 100, 0.58)",
+        "textSelectionBg": "rgba(63, 118, 100, 0.76)"
+      },
+      "state": {
+        "danger": "#C45B58",
+        "dangerText": "#A33F3C",
+        "dangerSoftText": "#B86763",
+        "dangerBg": "#FFF0ED",
+        "dangerBorder": "#E7B7B1",
+        "warning": "#B9843D",
+        "warningText": "#8A5D21",
+        "success": "#438363",
+        "successText": "#30694D"
+      },
+      "collapse": {
+        "fadeStart": "rgba(250, 249, 243, 0)",
+        "fadeMid": "rgba(250, 249, 243, 0.74)",
+        "fadeEnd": "rgba(250, 249, 243, 1)",
+        "caret": "#687B74"
+      },
+      "scrollbar": {
+        "track": "transparent",
+        "thumb": "rgba(69, 95, 86, 0.25)",
+        "thumbHover": "rgba(63, 118, 100, 0.50)"
+      }
+    },
+    "structure": {
+      "color": "rgba(66, 91, 82, 0.14)",
+      "hoverColor": "rgba(75, 136, 115, 0.44)",
+      "activeColor": "#4B8873",
+      "enabled": true,
+      "lines": {
+        "titlebarBottom": true,
+        "statusbarTop": true,
+        "navigationRight": true,
+        "sidePanelRight": true,
+        "assistantPanelLeft": true,
+        "contentSplit": true
+      },
+      "width": 1
+    },
+    "shadow": {
+      "floating": "0 16px 42px rgba(49, 72, 64, 0.17)",
+      "panel": "0 4px 18px rgba(49, 72, 64, 0.09)"
+    },
+    "editor": {
+      "background": "#F7F8F3",
+      "foreground": "#2B3C36",
+      "gutterBackground": "#EDF1EA",
+      "gutterForeground": "#829089",
+      "activeLine": "rgba(63, 118, 100, 0.07)",
+      "selectionMatch": "rgba(193, 143, 72, 0.25)",
+      "tooltipBackground": "#FFFDF7"
+    },
+    "background": {
+      "image": "assets/celadon-mist-theme-background-332b95debe.png",
+      "opacity": 0.62,
+      "blur": 1,
+      "overlay": "rgba(248, 247, 239, 0.12)",
+      "position": "center",
+      "size": "cover",
+      "repeat": "no-repeat"
+    }
+  },
+  "integrations": {
+    "codeMirror": "light",
+    "shiki": "github-light-default",
+    "mermaid": "neutral",
+    "milkdown": "light"
+  }
+}

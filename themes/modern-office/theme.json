@@ -1,0 +1,122 @@
+{
+  "schemaVersion": 2,
+  "id": "modern-office",
+  "name": "雾青",
+  "mode": "light",
+  "tokens": {
+    "color": {
+      "surface": {
+        "base": "#F3F5F6",
+        "panel": "rgba(255, 255, 255, 0.88)",
+        "panelAlt": "rgba(247, 249, 249, 0.92)",
+        "toolbar": "rgba(246, 248, 248, 0.94)",
+        "titlebar": "rgba(239, 243, 243, 0.96)",
+        "statusbar": "#E8EEEE",
+        "sidebar": "rgba(237, 242, 242, 0.94)",
+        "canvas": "rgba(250, 251, 250, 0.82)",
+        "elevated": "rgba(255, 255, 255, 0.97)",
+        "muted": "#EEF2F2",
+        "overlay": "rgba(30, 47, 52, 0.20)",
+        "menu": "rgba(255, 255, 255, 0.98)",
+        "input": "rgba(255, 255, 255, 0.92)",
+        "inputHover": "#FFFFFF",
+        "itemHover": "rgba(31, 111, 120, 0.07)",
+        "itemHoverStrong": "rgba(31, 111, 120, 0.13)"
+      },
+      "text": {
+        "primary": "#243238",
+        "secondary": "#4E6066",
+        "muted": "#77878C",
+        "heading": "#17282E",
+        "headingAccent": "#176C76",
+        "inverse": "#FFFFFF",
+        "selectionText": "#FFFFFF"
+      },
+      "border": {
+        "soft": "rgba(63, 89, 95, 0.16)",
+        "subtle": "rgba(63, 89, 95, 0.10)",
+        "strong": "rgba(42, 76, 83, 0.28)",
+        "focus": "#2A8791",
+        "separator": "rgba(63, 89, 95, 0.13)"
+      },
+      "accent": {
+        "base": "#1F6F78",
+        "rgb": "31, 111, 120",
+        "hover": "#185C64",
+        "text": "#176C76",
+        "softText": "#4D858B",
+        "selectionText": "#FFFFFF",
+        "selectionBgSubtle": "rgba(31, 111, 120, 0.09)",
+        "selectionBg": "#1F6F78",
+        "selectionBgHover": "#185C64",
+        "selectionBorder": "rgba(31, 111, 120, 0.55)",
+        "textSelectionBg": "rgba(31, 111, 120, 0.76)"
+      },
+      "state": {
+        "danger": "#C94E4E",
+        "dangerText": "#A63838",
+        "dangerSoftText": "#B75F5F",
+        "dangerBg": "#FFF0F0",
+        "dangerBorder": "#EABABA",
+        "warning": "#C8892E",
+        "warningText": "#94621D",
+        "success": "#348260",
+        "successText": "#286C4E"
+      },
+      "collapse": {
+        "fadeStart": "rgba(250, 251, 250, 0)",
+        "fadeMid": "rgba(250, 251, 250, 0.72)",
+        "fadeEnd": "rgba(250, 251, 250, 1)",
+        "caret": "#60747A"
+      },
+      "scrollbar": {
+        "track": "transparent",
+        "thumb": "rgba(64, 89, 95, 0.25)",
+        "thumbHover": "rgba(31, 111, 120, 0.48)"
+      }
+    },
+    "structure": {
+      "color": "rgba(58, 82, 88, 0.13)",
+      "hoverColor": "rgba(42, 135, 145, 0.42)",
+      "activeColor": "#2A8791",
+      "enabled": true,
+      "lines": {
+        "titlebarBottom": true,
+        "statusbarTop": true,
+        "navigationRight": true,
+        "sidePanelRight": true,
+        "assistantPanelLeft": true,
+        "contentSplit": true
+      },
+      "width": 1
+    },
+    "shadow": {
+      "floating": "0 14px 38px rgba(39, 61, 66, 0.16)",
+      "panel": "0 4px 18px rgba(39, 61, 66, 0.08)"
+    },
+    "editor": {
+      "background": "#F8FAFA",
+      "foreground": "#26373C",
+      "gutterBackground": "#F0F4F4",
+      "gutterForeground": "#829095",
+      "activeLine": "rgba(31, 111, 120, 0.065)",
+      "selectionMatch": "rgba(204, 159, 74, 0.25)",
+      "tooltipBackground": "#FFFFFF"
+    },
+    "background": {
+      "image": "assets/modern-office-background-8ae33d1f43.png",
+      "opacity": 0.26,
+      "blur": 1,
+      "overlay": "rgba(246, 248, 247, 0.28)",
+      "position": "center",
+      "size": "cover",
+      "repeat": "no-repeat"
+    }
+  },
+  "integrations": {
+    "codeMirror": "light",
+    "shiki": "github-light-default",
+    "mermaid": "neutral",
+    "milkdown": "light"
+  }
+}

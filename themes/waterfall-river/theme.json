@@ -1,0 +1,122 @@
+{
+  "schemaVersion": 2,
+  "id": "waterfall-river",
+  "name": "飞瀑长川",
+  "mode": "light",
+  "tokens": {
+    "color": {
+      "surface": {
+        "base": "#EAF0F1",
+        "panel": "rgba(247, 250, 249, 0.97)",
+        "panelAlt": "rgba(237, 244, 243, 0.97)",
+        "toolbar": "rgba(234, 242, 242, 0.98)",
+        "titlebar": "rgba(226, 237, 238, 0.98)",
+        "statusbar": "#DCE8E9",
+        "sidebar": "rgba(231, 240, 240, 0.985)",
+        "canvas": "rgba(249, 251, 250, 0.94)",
+        "elevated": "rgba(254, 255, 253, 0.99)",
+        "muted": "#E2EBEB",
+        "overlay": "rgba(30, 49, 53, 0.22)",
+        "menu": "rgba(252, 254, 252, 0.99)",
+        "input": "rgba(253, 255, 253, 0.99)",
+        "inputHover": "#FFFFFF",
+        "itemHover": "rgba(43, 111, 117, 0.09)",
+        "itemHoverStrong": "rgba(43, 111, 117, 0.17)"
+      },
+      "text": {
+        "primary": "#18282C",
+        "secondary": "#3B5257",
+        "muted": "#60777C",
+        "heading": "#16292D",
+        "headingAccent": "#286E73",
+        "inverse": "#F7FFFE",
+        "selectionText": "#FFFFFF"
+      },
+      "border": {
+        "soft": "rgba(42, 71, 77, 0.22)",
+        "subtle": "rgba(42, 71, 77, 0.14)",
+        "strong": "rgba(39, 91, 96, 0.32)",
+        "focus": "#37858A",
+        "separator": "rgba(42, 71, 77, 0.18)"
+      },
+      "accent": {
+        "base": "#2E777C",
+        "rgb": "46, 119, 124",
+        "hover": "#235F64",
+        "text": "#286E73",
+        "softText": "#609094",
+        "selectionText": "#FFFFFF",
+        "selectionBgSubtle": "rgba(46, 119, 124, 0.11)",
+        "selectionBg": "#2E777C",
+        "selectionBgHover": "#235F64",
+        "selectionBorder": "rgba(46, 119, 124, 0.60)",
+        "textSelectionBg": "rgba(46, 119, 124, 0.77)"
+      },
+      "state": {
+        "danger": "#B95155",
+        "dangerText": "#983A3E",
+        "dangerSoftText": "#AE6568",
+        "dangerBg": "#FBEDEF",
+        "dangerBorder": "#E1B4B7",
+        "warning": "#B17D38",
+        "warningText": "#82581F",
+        "success": "#477F68",
+        "successText": "#32634E"
+      },
+      "collapse": {
+        "fadeStart": "rgba(249, 251, 250, 0)",
+        "fadeMid": "rgba(249, 251, 250, 0.82)",
+        "fadeEnd": "rgba(249, 251, 250, 1)",
+        "caret": "#687E82"
+      },
+      "scrollbar": {
+        "track": "transparent",
+        "thumb": "rgba(54, 82, 87, 0.25)",
+        "thumbHover": "rgba(46, 119, 124, 0.52)"
+      }
+    },
+    "structure": {
+      "color": "rgba(42, 71, 77, 0.18)",
+      "hoverColor": "rgba(55, 133, 138, 0.46)",
+      "activeColor": "#37858A",
+      "enabled": true,
+      "lines": {
+        "titlebarBottom": true,
+        "statusbarTop": true,
+        "navigationRight": true,
+        "sidePanelRight": true,
+        "assistantPanelLeft": true,
+        "contentSplit": true
+      },
+      "width": 1
+    },
+    "shadow": {
+      "floating": "0 17px 44px rgba(34, 59, 63, 0.18)",
+      "panel": "0 5px 22px rgba(28, 52, 57, 0.13)"
+    },
+    "editor": {
+      "background": "#F5F9F8",
+      "foreground": "#273A3E",
+      "gutterBackground": "#E9F0F0",
+      "gutterForeground": "#7A8D90",
+      "activeLine": "rgba(46, 119, 124, 0.075)",
+      "selectionMatch": "rgba(190, 143, 66, 0.25)",
+      "tooltipBackground": "#FFFFFF"
+    },
+    "background": {
+      "image": "assets/waterfall-river-theme-background-6da427f424.png",
+      "opacity": 0.63,
+      "blur": 1,
+      "overlay": "rgba(244, 248, 247, 0.08)",
+      "position": "center",
+      "size": "cover",
+      "repeat": "no-repeat"
+    }
+  },
+  "integrations": {
+    "codeMirror": "light",
+    "shiki": "github-light-default",
+    "mermaid": "neutral",
+    "milkdown": "light"
+  }
+}
