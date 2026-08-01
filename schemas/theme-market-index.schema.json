@@ -1,0 +1,108 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://likemirage.github.io/Tiance-themes/schemas/theme-market-index.schema.json",
+  "title": "Tiance Theme Market Index",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schemaVersion", "kind", "name", "updatedAt", "themes"],
+  "properties": {
+    "schemaVersion": {
+      "const": 1
+    },
+    "kind": {
+      "const": "tiance-theme-market"
+    },
+    "name": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 120
+    },
+    "updatedAt": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "themes": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "id",
+          "name",
+          "mode",
+          "version",
+          "author",
+          "summary",
+          "license",
+          "previewUrl",
+          "packageUrl",
+          "sha256",
+          "size",
+          "compatibility"
+        ],
+        "properties": {
+          "id": {
+            "type": "string",
+            "pattern": "^[a-z0-9][a-z0-9-]{0,63}$"
+          },
+          "name": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 80
+          },
+          "mode": {
+            "enum": ["dark", "light"]
+          },
+          "version": {
+            "type": "string"
+          },
+          "author": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 80
+          },
+          "summary": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 160
+          },
+          "license": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 80
+          },
+          "previewUrl": {
+            "type": "string",
+            "format": "uri"
+          },
+          "packageUrl": {
+            "type": "string",
+            "format": "uri"
+          },
+          "sha256": {
+            "type": "string",
+            "pattern": "^[a-f0-9]{64}$"
+          },
+          "size": {
+            "type": "integer",
+            "minimum": 1
+          },
+          "compatibility": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": ["themeSchemaVersion", "minTianceVersion"],
+            "properties": {
+              "themeSchemaVersion": {
+                "const": 2
+              },
+              "minTianceVersion": {
+                "type": "string",
+                "pattern": "^(0|[1-9][0-9]*)\\.(0|[1-9][0-9]*)\\.(0|[1-9][0-9]*)$"
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
