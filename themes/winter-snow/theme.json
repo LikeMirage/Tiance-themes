@@ -1,7 +1,6 @@
 {
   "schemaVersion": 2,
   "id": "winter-snow",
-  "name": "霁雪寒川",
   "mode": "light",
   "tokens": {
     "color": {
@@ -118,5 +117,6 @@
     "shiki": "github-light-default",
     "mermaid": "neutral",
     "milkdown": "light"
-  }
+  },
+  "registrationName": "霁雪寒川"
 }

@@ -1,7 +1,6 @@
 {
   "schemaVersion": 2,
   "id": "bamboo-wind",
-  "name": "竹影听风",
   "mode": "light",
   "tokens": {
     "color": {
@@ -118,5 +117,6 @@
     "shiki": "github-light-default",
     "mermaid": "neutral",
     "milkdown": "light"
-  }
+  },
+  "registrationName": "竹影听风"
 }

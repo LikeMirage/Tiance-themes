@@ -1,7 +1,6 @@
 {
   "schemaVersion": 2,
   "id": "cloud-brocade",
-  "name": "云锦暗纹",
   "mode": "dark",
   "tokens": {
     "color": {
@@ -118,5 +117,6 @@
     "shiki": "github-dark-default",
     "mermaid": "dark",
     "milkdown": "dark"
-  }
+  },
+  "registrationName": "云锦暗纹"
 }

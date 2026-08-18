@@ -1,15 +1,18 @@
 {
   "schemaVersion": 1,
-  "version": "1.0.0",
+  "version": "1.0.1",
   "author": {
     "name": "LikeMirage"
   },
   "summary": "以黑色螺钿纹理和幽蓝流光构成的精致暗色主题。",
   "license": "CC0-1.0",
-  "baseColors": ["black", "cyan"],
+  "baseColors": [
+    "black",
+    "cyan"
+  ],
   "preview": "preview.webp",
   "compatibility": {
     "themeSchemaVersion": 2,
-    "minTianceVersion": "0.1.0"
+    "minTianceVersion": "0.3.20"
   }
 }

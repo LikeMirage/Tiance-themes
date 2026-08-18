@@ -1,15 +1,18 @@
 {
   "schemaVersion": 1,
-  "version": "1.0.0",
+  "version": "1.0.1",
   "author": {
     "name": "LikeMirage"
   },
   "summary": "以青绿山水、飞瀑和长川构成的清逸主题。",
   "license": "CC0-1.0",
-  "baseColors": ["white", "cyan"],
+  "baseColors": [
+    "white",
+    "cyan"
+  ],
   "preview": "preview.webp",
   "compatibility": {
     "themeSchemaVersion": 2,
-    "minTianceVersion": "0.1.0"
+    "minTianceVersion": "0.3.20"
   }
 }

@@ -1,15 +1,19 @@
 {
   "schemaVersion": 1,
-  "version": "1.0.0",
+  "version": "1.0.1",
   "author": {
     "name": "LikeMirage"
   },
   "summary": "融合青铜器纹理与暗色金属质感的沉稳主题。",
   "license": "CC0-1.0",
-  "baseColors": ["black", "gold", "green"],
+  "baseColors": [
+    "black",
+    "gold",
+    "green"
+  ],
   "preview": "preview.webp",
   "compatibility": {
     "themeSchemaVersion": 2,
-    "minTianceVersion": "0.1.0"
+    "minTianceVersion": "0.3.20"
   }
 }

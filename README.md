@@ -14,7 +14,7 @@ themes/<theme-id>/
 └─ assets/
 ```
 
-- `theme.json`：天策主题运行合同，当前要求 `schemaVersion: 2`。
+- `theme.json`：天策主题运行合同，当前要求 `schemaVersion: 2`，并以 `registrationName` 提供首次安装时的注册显示名称。
 - `manifest.json`：版本、作者、简介、许可证、基色标签和兼容范围。
 - `preview.webp`：在线市场使用的轻量预览图。
 - `assets/`：主题背景等本地资源。

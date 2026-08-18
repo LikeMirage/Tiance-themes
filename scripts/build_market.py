@@ -52,7 +52,7 @@ def _build_theme(theme_root: Path) -> dict[str, object]:
 
     return {
         "id": theme_id,
-        "name": str(theme["name"]),
+        "name": str(theme["registrationName"]),
         "mode": str(theme["mode"]),
         "version": version,
         "author": str(manifest["author"]["name"]),

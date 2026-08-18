@@ -1,15 +1,18 @@
 {
   "schemaVersion": 1,
-  "version": "1.0.0",
+  "version": "1.0.1",
   "author": {
     "name": "LikeMirage"
   },
   "summary": "以云海天门和晨光远山构成开阔明净的主题。",
   "license": "CC0-1.0",
-  "baseColors": ["white", "blue"],
+  "baseColors": [
+    "white",
+    "blue"
+  ],
   "preview": "preview.webp",
   "compatibility": {
     "themeSchemaVersion": 2,
-    "minTianceVersion": "0.1.0"
+    "minTianceVersion": "0.3.20"
   }
 }

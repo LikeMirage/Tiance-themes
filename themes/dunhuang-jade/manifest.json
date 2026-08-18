@@ -1,15 +1,18 @@
 {
   "schemaVersion": 1,
-  "version": "1.0.0",
+  "version": "1.0.1",
   "author": {
     "name": "LikeMirage"
   },
   "summary": "融合敦煌纹饰、青璧色和鎏金质感的东方主题。",
   "license": "CC0-1.0",
-  "baseColors": ["green", "gold"],
+  "baseColors": [
+    "green",
+    "gold"
+  ],
   "preview": "preview.webp",
   "compatibility": {
     "themeSchemaVersion": 2,
-    "minTianceVersion": "0.1.0"
+    "minTianceVersion": "0.3.20"
   }
 }

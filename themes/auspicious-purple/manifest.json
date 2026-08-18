@@ -1,15 +1,18 @@
 {
   "schemaVersion": 1,
-  "version": "1.0.0",
+  "version": "1.0.1",
   "author": {
     "name": "LikeMirage"
   },
   "summary": "紫云山岳与金色微光交织的东方暗色主题。",
   "license": "CC0-1.0",
-  "baseColors": ["purple", "gold"],
+  "baseColors": [
+    "purple",
+    "gold"
+  ],
   "preview": "preview.webp",
   "compatibility": {
     "themeSchemaVersion": 2,
-    "minTianceVersion": "0.1.0"
+    "minTianceVersion": "0.3.20"
   }
 }

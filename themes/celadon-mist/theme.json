@@ -1,7 +1,6 @@
 {
   "schemaVersion": 2,
   "id": "celadon-mist",
-  "name": "青瓷云岫",
   "mode": "light",
   "tokens": {
     "color": {
@@ -118,5 +117,6 @@
     "shiki": "github-light-default",
     "mermaid": "neutral",
     "milkdown": "light"
-  }
+  },
+  "registrationName": "青瓷云岫"
 }

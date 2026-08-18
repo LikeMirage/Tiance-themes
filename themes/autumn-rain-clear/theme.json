@@ -1,7 +1,6 @@
 {
   "schemaVersion": 2,
   "id": "autumn-rain-clear",
-  "name": "枫汀秋霁",
   "mode": "light",
   "tokens": {
     "color": {
@@ -118,5 +117,6 @@
     "shiki": "github-light-default",
     "mermaid": "neutral",
     "milkdown": "light"
-  }
+  },
+  "registrationName": "枫汀秋霁"
 }

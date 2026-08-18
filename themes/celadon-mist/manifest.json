@@ -1,15 +1,18 @@
 {
   "schemaVersion": 1,
-  "version": "1.0.0",
+  "version": "1.0.1",
   "author": {
     "name": "LikeMirage"
   },
   "summary": "以青瓷色水墨山峦构成清润通透的东方主题。",
   "license": "CC0-1.0",
-  "baseColors": ["white", "green"],
+  "baseColors": [
+    "white",
+    "green"
+  ],
   "preview": "preview.webp",
   "compatibility": {
     "themeSchemaVersion": 2,
-    "minTianceVersion": "0.1.0"
+    "minTianceVersion": "0.3.20"
   }
 }

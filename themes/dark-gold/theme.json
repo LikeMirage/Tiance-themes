@@ -1,7 +1,6 @@
 {
   "schemaVersion": 2,
   "id": "dark-gold",
-  "name": "暗金",
   "mode": "light",
   "tokens": {
     "color": {
@@ -118,5 +117,6 @@
     "shiki": "github-light",
     "mermaid": "forest",
     "milkdown": "dark"
-  }
+  },
+  "registrationName": "暗金"
 }

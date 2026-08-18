@@ -1,15 +1,19 @@
 {
   "schemaVersion": 1,
-  "version": "1.0.0",
+  "version": "1.0.1",
   "author": {
     "name": "LikeMirage"
   },
   "summary": "以深海蓝绿和发光珊瑚构成的奇幻暗色主题。",
   "license": "CC0-1.0",
-  "baseColors": ["black", "cyan", "orange"],
+  "baseColors": [
+    "black",
+    "cyan",
+    "orange"
+  ],
   "preview": "preview.webp",
   "compatibility": {
     "themeSchemaVersion": 2,
-    "minTianceVersion": "0.1.0"
+    "minTianceVersion": "0.3.20"
   }
 }

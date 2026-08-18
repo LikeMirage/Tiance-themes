@@ -1,7 +1,6 @@
 {
   "schemaVersion": 2,
   "id": "ink-moon",
-  "name": "玄墨照月",
   "mode": "dark",
   "tokens": {
     "color": {
@@ -118,5 +117,6 @@
     "shiki": "github-dark-default",
     "mermaid": "dark",
     "milkdown": "dark"
-  }
+  },
+  "registrationName": "玄墨照月"
 }

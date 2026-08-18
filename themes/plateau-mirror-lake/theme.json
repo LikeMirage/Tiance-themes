@@ -1,7 +1,6 @@
 {
   "schemaVersion": 2,
   "id": "plateau-mirror-lake",
-  "name": "高原镜湖",
   "mode": "light",
   "tokens": {
     "color": {
@@ -118,5 +117,6 @@
     "shiki": "github-light-default",
     "mermaid": "neutral",
     "milkdown": "light"
-  }
+  },
+  "registrationName": "高原镜湖"
 }

@@ -1,7 +1,6 @@
 {
   "schemaVersion": 2,
   "id": "kunlun-snow-night",
-  "name": "昆仑雪境",
   "mode": "dark",
   "tokens": {
     "color": {
@@ -118,5 +117,6 @@
     "shiki": "github-dark-default",
     "mermaid": "dark",
     "milkdown": "dark"
-  }
+  },
+  "registrationName": "昆仑雪境"
 }

@@ -1,7 +1,6 @@
 {
   "schemaVersion": 2,
   "id": "mother-of-pearl-night",
-  "name": "螺钿夜光",
   "mode": "dark",
   "tokens": {
     "color": {
@@ -118,5 +117,6 @@
     "shiki": "github-dark-default",
     "mermaid": "dark",
     "milkdown": "dark"
-  }
+  },
+  "registrationName": "螺钿夜光"
 }

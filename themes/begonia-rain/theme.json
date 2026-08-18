@@ -1,7 +1,6 @@
 {
   "schemaVersion": 2,
   "id": "begonia-rain",
-  "name": "海棠春雨",
   "mode": "light",
   "tokens": {
     "color": {
@@ -118,5 +117,6 @@
     "shiki": "github-light-default",
     "mermaid": "neutral",
     "milkdown": "light"
-  }
+  },
+  "registrationName": "海棠春雨"
 }

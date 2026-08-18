@@ -1,7 +1,6 @@
 {
   "schemaVersion": 2,
   "id": "light",
-  "name": "浅色",
   "mode": "light",
   "tokens": {
     "color": {
@@ -118,5 +117,6 @@
     "shiki": "github-light",
     "mermaid": "default",
     "milkdown": "light"
-  }
+  },
+  "registrationName": "浅色"
 }

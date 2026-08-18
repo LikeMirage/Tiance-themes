@@ -56,7 +56,10 @@ def _validate_package_tree(theme_root: Path) -> None:
 def _validate_theme(theme_id: str, theme: dict[str, Any], theme_root: Path) -> None:
     require(theme.get("schemaVersion") == 2, f"{theme_id} 只支持 theme schemaVersion 2。")
     require(theme.get("id") == theme_id, f"{theme_id} 的 theme.json.id 与目录名不一致。")
-    require(isinstance(theme.get("name"), str) and theme["name"].strip(), f"{theme_id} 缺少名称。")
+    require(
+        isinstance(theme.get("registrationName"), str) and theme["registrationName"].strip(),
+        f"{theme_id} 缺少注册名称。",
+    )
     require(theme.get("mode") in {"dark", "light"}, f"{theme_id} 的 mode 非法。")
 
     tokens = theme.get("tokens")

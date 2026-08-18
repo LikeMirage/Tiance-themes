@@ -1,7 +1,6 @@
 {
   "schemaVersion": 2,
   "id": "cangyan-wanren",
-  "name": "苍岩万仞",
   "mode": "dark",
   "tokens": {
     "color": {
@@ -118,5 +117,6 @@
     "shiki": "github-dark-default",
     "mermaid": "dark",
     "milkdown": "dark"
-  }
+  },
+  "registrationName": "苍岩万仞"
 }

@@ -1,7 +1,6 @@
 {
   "schemaVersion": 2,
   "id": "white-jade-glow",
-  "name": "白玉流光",
   "mode": "light",
   "tokens": {
     "color": {
@@ -118,5 +117,6 @@
     "shiki": "github-light-default",
     "mermaid": "neutral",
     "milkdown": "light"
-  }
+  },
+  "registrationName": "白玉流光"
 }

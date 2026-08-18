@@ -1,7 +1,6 @@
 {
   "schemaVersion": 2,
   "id": "deep-sea-coral",
-  "name": "深海珊瑚",
   "mode": "dark",
   "tokens": {
     "color": {
@@ -118,5 +117,6 @@
     "shiki": "github-dark",
     "mermaid": "dark",
     "milkdown": "dark"
-  }
+  },
+  "registrationName": "深海珊瑚"
 }

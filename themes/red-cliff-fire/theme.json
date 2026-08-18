@@ -1,7 +1,6 @@
 {
   "schemaVersion": 2,
   "id": "red-cliff-fire",
-  "name": "赤壁流火",
   "mode": "dark",
   "tokens": {
     "color": {
@@ -118,5 +117,6 @@
     "shiki": "github-dark-default",
     "mermaid": "dark",
     "milkdown": "dark"
-  }
+  },
+  "registrationName": "赤壁流火"
 }
