@@ -104,9 +104,9 @@
     },
     "background": {
       "image": "",
-      "opacity": 0.98,
-      "blur": 1,
-      "overlay": "rgba(255, 255, 255, 0.03)",
+      "opacity": 0,
+      "blur": 0,
+      "overlay": "transparent",
       "position": "center",
       "size": "cover",
       "repeat": "no-repeat"
